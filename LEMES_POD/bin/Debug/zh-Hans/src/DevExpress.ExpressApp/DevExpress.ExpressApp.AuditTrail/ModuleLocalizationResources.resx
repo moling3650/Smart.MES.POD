@@ -1,0 +1,1572 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BOModel\DevExpress.Persistent.AuditTrail.BaseAuditedObjectWeakReference\ObjectCaptionFormat" xml:space="preserve">
+    <value>{0:DisplayName}</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.Persistent.AuditTrail.BaseAuditedObjectWeakReference\Caption" xml:space="preserve">
+    <value>Base Audited Object Weak Reference</value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.AuditTrail.BaseAuditedObjectWeakReference\OwnMembers\DisplayName\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.AuditTrail.BaseAuditedObjectWeakReference\OwnMembers\DisplayName\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.Persistent.AuditTrail.BaseAuditedObjectWeakReference\OwnMembers\DisplayName\Caption" xml:space="preserve">
+    <value>Display Name</value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.AuditTrail.BaseAuditedObjectWeakReference\OwnMembers\DisplayName\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.AuditTrail.BaseAuditedObjectWeakReference\OwnMembers\DisplayName\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.Persistent.AuditTrail.BaseAuditedObjectWeakReference\OwnMembers\DisplayName\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.Persistent.AuditTrail.BaseAuditedObjectWeakReference\OwnMembers\DisplayName\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.AuditTrail.BaseAuditedObjectWeakReference\OwnMembers\GuidId\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.AuditTrail.BaseAuditedObjectWeakReference\OwnMembers\GuidId\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.Persistent.AuditTrail.BaseAuditedObjectWeakReference\OwnMembers\GuidId\Caption" xml:space="preserve">
+    <value>Guid Id</value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.AuditTrail.BaseAuditedObjectWeakReference\OwnMembers\GuidId\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.AuditTrail.BaseAuditedObjectWeakReference\OwnMembers\GuidId\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.Persistent.AuditTrail.BaseAuditedObjectWeakReference\OwnMembers\GuidId\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.Persistent.AuditTrail.BaseAuditedObjectWeakReference\OwnMembers\GuidId\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.AuditTrail.BaseAuditedObjectWeakReference\OwnMembers\IntId\EditMask" xml:space="preserve">
+    <value>N0</value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.AuditTrail.BaseAuditedObjectWeakReference\OwnMembers\IntId\DisplayFormat" xml:space="preserve">
+    <value>{0:N0}</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.Persistent.AuditTrail.BaseAuditedObjectWeakReference\OwnMembers\IntId\Caption" xml:space="preserve">
+    <value>Int Id</value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.AuditTrail.BaseAuditedObjectWeakReference\OwnMembers\IntId\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.AuditTrail.BaseAuditedObjectWeakReference\OwnMembers\IntId\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.Persistent.AuditTrail.BaseAuditedObjectWeakReference\OwnMembers\IntId\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.Persistent.AuditTrail.BaseAuditedObjectWeakReference\OwnMembers\IntId\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\ObjectCaptionFormat" xml:space="preserve">
+    <value>{0:UserName}</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\Caption" xml:space="preserve">
+    <value>Audit Data Item Persistent</value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\UserName\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\UserName\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\UserName\Caption" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\UserName\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\UserName\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\UserName\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\UserName\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\ModifiedOn\EditMask" xml:space="preserve">
+    <value>d</value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\ModifiedOn\DisplayFormat" xml:space="preserve">
+    <value>{0:d}</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\ModifiedOn\Caption" xml:space="preserve">
+    <value>Modified On</value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\ModifiedOn\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\ModifiedOn\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\ModifiedOn\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\ModifiedOn\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\OperationType\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\OperationType\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\OperationType\Caption" xml:space="preserve">
+    <value>Operation Type</value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\OperationType\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\OperationType\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\OperationType\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\OperationType\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\Description\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\Description\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\Description\Caption" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\Description\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\Description\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\Description\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\Description\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\OldValue\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\OldValue\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\OldValue\Caption" xml:space="preserve">
+    <value>Old Value</value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\OldValue\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\OldValue\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\OldValue\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\OldValue\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\NewValue\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\NewValue\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\NewValue\Caption" xml:space="preserve">
+    <value>New Value</value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\NewValue\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\NewValue\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\NewValue\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\NewValue\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\PropertyName\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\PropertyName\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\PropertyName\Caption" xml:space="preserve">
+    <value>Property Name</value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\PropertyName\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\PropertyName\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\PropertyName\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.Persistent.BaseImpl.AuditDataItemPersistent\OwnMembers\PropertyName\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.BaseImpl.AuditedObjectWeakReference\ObjectCaptionFormat" xml:space="preserve">
+    <value>{0:DisplayName}</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.Persistent.BaseImpl.AuditedObjectWeakReference\Caption" xml:space="preserve">
+    <value>Audited Object Weak Reference</value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.BaseImpl.AuditedObjectWeakReference\OwnMembers\AuditDataItems\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.BaseImpl.AuditedObjectWeakReference\OwnMembers\AuditDataItems\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.Persistent.BaseImpl.AuditedObjectWeakReference\OwnMembers\AuditDataItems\Caption" xml:space="preserve">
+    <value>Audit Data Items</value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.BaseImpl.AuditedObjectWeakReference\OwnMembers\AuditDataItems\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.BaseImpl.AuditedObjectWeakReference\OwnMembers\AuditDataItems\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.Persistent.BaseImpl.AuditedObjectWeakReference\OwnMembers\AuditDataItems\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.Persistent.BaseImpl.AuditedObjectWeakReference\OwnMembers\AuditDataItems\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.BaseImpl.BaseObject\ObjectCaptionFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.Persistent.BaseImpl.BaseObject\Caption" xml:space="preserve">
+    <value>Base Object</value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.BaseImpl.BaseObject\OwnMembers\Oid\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.BaseImpl.BaseObject\OwnMembers\Oid\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.Persistent.BaseImpl.BaseObject\OwnMembers\Oid\Caption" xml:space="preserve">
+    <value>Oid</value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.BaseImpl.BaseObject\OwnMembers\Oid\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.Persistent.BaseImpl.BaseObject\OwnMembers\Oid\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.Persistent.BaseImpl.BaseObject\OwnMembers\Oid\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.Persistent.BaseImpl.BaseObject\OwnMembers\Oid\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\Localization\AuditTrail\Value" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\Localization\AuditTrail\BlobDataString\Value" xml:space="preserve">
+    <value>Blob data</value>
+  </data>
+  <data name="Non-calculated\Localization\AuditTrail\NullValueString\Value" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="Non-calculated\Localization\Namespaces\DevExpress.Persistent.AuditTrail\Value" xml:space="preserve">
+    <value>AuditTrail</value>
+  </data>
+  <data name="Non-calculated\Localization\Namespaces\DevExpress.Persistent.BaseImpl\Value" xml:space="preserve">
+    <value>BaseImpl</value>
+  </data>
+  <data name="Non-calculated\Localization\Namespaces\DevExpress.Xpo\Value" xml:space="preserve">
+    <value>Xpo</value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\ObjectCaptionFormat" xml:space="preserve">
+    <value>{0:UserName}</value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Caption" xml:space="preserve">
+    <value>Audit Data Item Persistent</value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\Description\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\Description\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\Description\Caption" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\Description\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\Description\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\Description\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\Description\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\ModifiedOn\EditMask" xml:space="preserve">
+    <value>d</value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\ModifiedOn\DisplayFormat" xml:space="preserve">
+    <value>{0:d}</value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\ModifiedOn\Caption" xml:space="preserve">
+    <value>Modified On</value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\ModifiedOn\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\ModifiedOn\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\ModifiedOn\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\ModifiedOn\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\NewValue\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\NewValue\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\NewValue\Caption" xml:space="preserve">
+    <value>New Value</value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\NewValue\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\NewValue\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\NewValue\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\NewValue\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\Oid\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\Oid\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\Oid\Caption" xml:space="preserve">
+    <value>Oid</value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\Oid\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\Oid\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\Oid\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\Oid\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\OldValue\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\OldValue\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\OldValue\Caption" xml:space="preserve">
+    <value>Old Value</value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\OldValue\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\OldValue\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\OldValue\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\OldValue\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\OperationType\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\OperationType\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\OperationType\Caption" xml:space="preserve">
+    <value>Operation Type</value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\OperationType\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\OperationType\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\OperationType\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\OperationType\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\PropertyName\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\PropertyName\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\PropertyName\Caption" xml:space="preserve">
+    <value>Property Name</value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\PropertyName\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\PropertyName\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\PropertyName\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\PropertyName\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\UserName\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\UserName\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\UserName\Caption" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\UserName\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\UserName\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\UserName\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Items\UserName\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Layout\Main\Caption" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Layout\Main\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Layout\Main\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Layout\Main\SimpleEditors\Caption" xml:space="preserve">
+    <value>SimpleEditors</value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Layout\Main\SimpleEditors\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Layout\Main\SimpleEditors\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Layout\Main\SimpleEditors\AuditDataItemPersistent\Caption" xml:space="preserve">
+    <value>AuditDataItemPersistent</value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Layout\Main\SimpleEditors\AuditDataItemPersistent\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Layout\Main\SimpleEditors\AuditDataItemPersistent\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Layout\Main\SimpleEditors\AuditDataItemPersistent\UserName\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Layout\Main\SimpleEditors\AuditDataItemPersistent\UserName\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Layout\Main\SimpleEditors\AuditDataItemPersistent\ModifiedOn\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Layout\Main\SimpleEditors\AuditDataItemPersistent\ModifiedOn\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Layout\Main\SimpleEditors\AuditDataItemPersistent\OperationType\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Layout\Main\SimpleEditors\AuditDataItemPersistent\OperationType\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Layout\Main\SimpleEditors\AuditDataItemPersistent\PropertyName\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Layout\Main\SimpleEditors\AuditDataItemPersistent\PropertyName\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Layout\Main\SizeableEditors\Caption" xml:space="preserve">
+    <value>SizeableEditors</value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Layout\Main\SizeableEditors\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Layout\Main\SizeableEditors\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Layout\Main\SizeableEditors\Description\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Layout\Main\SizeableEditors\Description\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Layout\Main\SizeableEditors\OldValue\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Layout\Main\SizeableEditors\OldValue\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Layout\Main\SizeableEditors\NewValue\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_DetailView\Layout\Main\SizeableEditors\NewValue\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Caption" xml:space="preserve">
+    <value>Audit Data Item Persistent</value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\Description\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\Description\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\Description\Caption" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\Description\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\Description\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\Description\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\Description\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\NewValue\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\NewValue\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\NewValue\Caption" xml:space="preserve">
+    <value>New Value</value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\NewValue\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\NewValue\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\NewValue\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\NewValue\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\Oid\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\Oid\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\Oid\Caption" xml:space="preserve">
+    <value>Oid</value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\Oid\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\Oid\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\Oid\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\Oid\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\OldValue\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\OldValue\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\OldValue\Caption" xml:space="preserve">
+    <value>Old Value</value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\OldValue\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\OldValue\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\OldValue\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\OldValue\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\UserName\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\UserName\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\UserName\Caption" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\UserName\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\UserName\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\UserName\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\UserName\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\ModifiedOn\EditMask" xml:space="preserve">
+    <value>d</value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\ModifiedOn\DisplayFormat" xml:space="preserve">
+    <value>{0:d}</value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\ModifiedOn\Caption" xml:space="preserve">
+    <value>Modified On</value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\ModifiedOn\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\ModifiedOn\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\ModifiedOn\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\ModifiedOn\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\OperationType\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\OperationType\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\OperationType\Caption" xml:space="preserve">
+    <value>Operation Type</value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\OperationType\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\OperationType\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\OperationType\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\OperationType\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\PropertyName\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\PropertyName\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\PropertyName\Caption" xml:space="preserve">
+    <value>Property Name</value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\PropertyName\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\PropertyName\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\PropertyName\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_ListView\Columns\PropertyName\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_LookupListView\Caption" xml:space="preserve">
+    <value>Audit Data Item Persistent</value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_LookupListView\Columns\UserName\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_LookupListView\Columns\UserName\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_LookupListView\Columns\UserName\Caption" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_LookupListView\Columns\UserName\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_LookupListView\Columns\UserName\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_LookupListView\Columns\UserName\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditDataItemPersistent_LookupListView\Columns\UserName\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Caption" xml:space="preserve">
+    <value>Audit Data Item Persistent</value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\Description\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\Description\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\Description\Caption" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\Description\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\Description\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\Description\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\Description\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\NewValue\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\NewValue\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\NewValue\Caption" xml:space="preserve">
+    <value>New Value</value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\NewValue\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\NewValue\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\NewValue\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\NewValue\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\Oid\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\Oid\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\Oid\Caption" xml:space="preserve">
+    <value>Oid</value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\Oid\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\Oid\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\Oid\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\Oid\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\OldValue\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\OldValue\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\OldValue\Caption" xml:space="preserve">
+    <value>Old Value</value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\OldValue\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\OldValue\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\OldValue\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\OldValue\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\UserName\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\UserName\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\UserName\Caption" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\UserName\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\UserName\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\UserName\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\UserName\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\ModifiedOn\EditMask" xml:space="preserve">
+    <value>d</value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\ModifiedOn\DisplayFormat" xml:space="preserve">
+    <value>{0:d}</value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\ModifiedOn\Caption" xml:space="preserve">
+    <value>Modified On</value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\ModifiedOn\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\ModifiedOn\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\ModifiedOn\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\ModifiedOn\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\OperationType\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\OperationType\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\OperationType\Caption" xml:space="preserve">
+    <value>Operation Type</value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\OperationType\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\OperationType\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\OperationType\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\OperationType\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\PropertyName\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\PropertyName\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\PropertyName\Caption" xml:space="preserve">
+    <value>Property Name</value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\PropertyName\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\PropertyName\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\PropertyName\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_AuditDataItems_ListView\Columns\PropertyName\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\ObjectCaptionFormat" xml:space="preserve">
+    <value>{0:DisplayName}</value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Caption" xml:space="preserve">
+    <value>Audited Object Weak Reference</value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Items\AuditDataItems\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Items\AuditDataItems\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Items\AuditDataItems\Caption" xml:space="preserve">
+    <value>Audit Data Items</value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Items\AuditDataItems\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Items\AuditDataItems\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Items\AuditDataItems\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Items\AuditDataItems\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Items\DisplayName\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Items\DisplayName\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Items\DisplayName\Caption" xml:space="preserve">
+    <value>Display Name</value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Items\DisplayName\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Items\DisplayName\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Items\DisplayName\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Items\DisplayName\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Items\GuidId\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Items\GuidId\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Items\GuidId\Caption" xml:space="preserve">
+    <value>Guid Id</value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Items\GuidId\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Items\GuidId\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Items\GuidId\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Items\GuidId\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Items\IntId\EditMask" xml:space="preserve">
+    <value>N0</value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Items\IntId\DisplayFormat" xml:space="preserve">
+    <value>{0:N0}</value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Items\IntId\Caption" xml:space="preserve">
+    <value>Int Id</value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Items\IntId\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Items\IntId\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Items\IntId\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Items\IntId\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Layout\Main\Caption" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Layout\Main\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Layout\Main\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Layout\Main\SimpleEditors\Caption" xml:space="preserve">
+    <value>SimpleEditors</value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Layout\Main\SimpleEditors\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Layout\Main\SimpleEditors\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Layout\Main\SimpleEditors\BaseAuditedObjectWeakReference\Caption" xml:space="preserve">
+    <value>BaseAuditedObjectWeakReference</value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Layout\Main\SimpleEditors\BaseAuditedObjectWeakReference\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Layout\Main\SimpleEditors\BaseAuditedObjectWeakReference\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Layout\Main\SimpleEditors\BaseAuditedObjectWeakReference\DisplayName\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Layout\Main\SimpleEditors\BaseAuditedObjectWeakReference\DisplayName\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Layout\Main\SimpleEditors\BaseAuditedObjectWeakReference\GuidId\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Layout\Main\SimpleEditors\BaseAuditedObjectWeakReference\GuidId\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Layout\Main\SimpleEditors\BaseAuditedObjectWeakReference\IntId\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Layout\Main\SimpleEditors\BaseAuditedObjectWeakReference\IntId\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Layout\Main\AuditDataItems_Group\Caption" xml:space="preserve">
+    <value>Audit Data Items</value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Layout\Main\AuditDataItems_Group\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Layout\Main\AuditDataItems_Group\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Layout\Main\AuditDataItems_Group\AuditDataItems\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_DetailView\Layout\Main\AuditDataItems_Group\AuditDataItems\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_ListView\Caption" xml:space="preserve">
+    <value>Audited Object Weak Reference</value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_ListView\Columns\DisplayName\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_ListView\Columns\DisplayName\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_ListView\Columns\DisplayName\Caption" xml:space="preserve">
+    <value>Display Name</value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_ListView\Columns\DisplayName\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_ListView\Columns\DisplayName\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_ListView\Columns\DisplayName\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_ListView\Columns\DisplayName\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_ListView\Columns\GuidId\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_ListView\Columns\GuidId\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_ListView\Columns\GuidId\Caption" xml:space="preserve">
+    <value>Guid Id</value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_ListView\Columns\GuidId\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_ListView\Columns\GuidId\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_ListView\Columns\GuidId\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_ListView\Columns\GuidId\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_ListView\Columns\IntId\EditMask" xml:space="preserve">
+    <value>N0</value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_ListView\Columns\IntId\DisplayFormat" xml:space="preserve">
+    <value>{0:N0}</value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_ListView\Columns\IntId\Caption" xml:space="preserve">
+    <value>Int Id</value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_ListView\Columns\IntId\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_ListView\Columns\IntId\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_ListView\Columns\IntId\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_ListView\Columns\IntId\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_LookupListView\Caption" xml:space="preserve">
+    <value>Audited Object Weak Reference</value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_LookupListView\Columns\DisplayName\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_LookupListView\Columns\DisplayName\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_LookupListView\Columns\DisplayName\Caption" xml:space="preserve">
+    <value>Display Name</value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_LookupListView\Columns\DisplayName\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_LookupListView\Columns\DisplayName\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_LookupListView\Columns\DisplayName\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\AuditedObjectWeakReference_LookupListView\Columns\DisplayName\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_DetailView\ObjectCaptionFormat" xml:space="preserve">
+    <value>{0:DisplayName}</value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_DetailView\Caption" xml:space="preserve">
+    <value>Base Audited Object Weak Reference</value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_DetailView\Items\DisplayName\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_DetailView\Items\DisplayName\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_DetailView\Items\DisplayName\Caption" xml:space="preserve">
+    <value>Display Name</value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_DetailView\Items\DisplayName\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_DetailView\Items\DisplayName\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_DetailView\Items\DisplayName\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_DetailView\Items\DisplayName\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_DetailView\Items\GuidId\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_DetailView\Items\GuidId\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_DetailView\Items\GuidId\Caption" xml:space="preserve">
+    <value>Guid Id</value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_DetailView\Items\GuidId\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_DetailView\Items\GuidId\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_DetailView\Items\GuidId\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_DetailView\Items\GuidId\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_DetailView\Items\IntId\EditMask" xml:space="preserve">
+    <value>N0</value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_DetailView\Items\IntId\DisplayFormat" xml:space="preserve">
+    <value>{0:N0}</value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_DetailView\Items\IntId\Caption" xml:space="preserve">
+    <value>Int Id</value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_DetailView\Items\IntId\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_DetailView\Items\IntId\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_DetailView\Items\IntId\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_DetailView\Items\IntId\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_DetailView\Layout\Main\Caption" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_DetailView\Layout\Main\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_DetailView\Layout\Main\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_DetailView\Layout\Main\SimpleEditors\Caption" xml:space="preserve">
+    <value>SimpleEditors</value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_DetailView\Layout\Main\SimpleEditors\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_DetailView\Layout\Main\SimpleEditors\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_DetailView\Layout\Main\SimpleEditors\BaseAuditedObjectWeakReference\Caption" xml:space="preserve">
+    <value>BaseAuditedObjectWeakReference</value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_DetailView\Layout\Main\SimpleEditors\BaseAuditedObjectWeakReference\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_DetailView\Layout\Main\SimpleEditors\BaseAuditedObjectWeakReference\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_DetailView\Layout\Main\SimpleEditors\BaseAuditedObjectWeakReference\DisplayName\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_DetailView\Layout\Main\SimpleEditors\BaseAuditedObjectWeakReference\DisplayName\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_DetailView\Layout\Main\SimpleEditors\BaseAuditedObjectWeakReference\GuidId\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_DetailView\Layout\Main\SimpleEditors\BaseAuditedObjectWeakReference\GuidId\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_DetailView\Layout\Main\SimpleEditors\BaseAuditedObjectWeakReference\IntId\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_DetailView\Layout\Main\SimpleEditors\BaseAuditedObjectWeakReference\IntId\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_ListView\Caption" xml:space="preserve">
+    <value>Base Audited Object Weak Reference</value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_ListView\Columns\DisplayName\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_ListView\Columns\DisplayName\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_ListView\Columns\DisplayName\Caption" xml:space="preserve">
+    <value>Display Name</value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_ListView\Columns\DisplayName\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_ListView\Columns\DisplayName\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_ListView\Columns\DisplayName\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_ListView\Columns\DisplayName\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_ListView\Columns\GuidId\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_ListView\Columns\GuidId\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_ListView\Columns\GuidId\Caption" xml:space="preserve">
+    <value>Guid Id</value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_ListView\Columns\GuidId\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_ListView\Columns\GuidId\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_ListView\Columns\GuidId\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_ListView\Columns\GuidId\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_ListView\Columns\IntId\EditMask" xml:space="preserve">
+    <value>N0</value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_ListView\Columns\IntId\DisplayFormat" xml:space="preserve">
+    <value>{0:N0}</value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_ListView\Columns\IntId\Caption" xml:space="preserve">
+    <value>Int Id</value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_ListView\Columns\IntId\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_ListView\Columns\IntId\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_ListView\Columns\IntId\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_ListView\Columns\IntId\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_LookupListView\Caption" xml:space="preserve">
+    <value>Base Audited Object Weak Reference</value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_LookupListView\Columns\DisplayName\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_LookupListView\Columns\DisplayName\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_LookupListView\Columns\DisplayName\Caption" xml:space="preserve">
+    <value>Display Name</value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_LookupListView\Columns\DisplayName\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_LookupListView\Columns\DisplayName\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_LookupListView\Columns\DisplayName\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseAuditedObjectWeakReference_LookupListView\Columns\DisplayName\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseObject_DetailView\ObjectCaptionFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseObject_DetailView\Caption" xml:space="preserve">
+    <value>Base Object</value>
+  </data>
+  <data name="Views\BaseObject_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\BaseObject_DetailView\Items\Oid\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseObject_DetailView\Items\Oid\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseObject_DetailView\Items\Oid\Caption" xml:space="preserve">
+    <value>Oid</value>
+  </data>
+  <data name="Views\BaseObject_DetailView\Items\Oid\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseObject_DetailView\Items\Oid\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseObject_DetailView\Items\Oid\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseObject_DetailView\Items\Oid\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseObject_DetailView\Layout\Main\Caption" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="Views\BaseObject_DetailView\Layout\Main\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseObject_DetailView\Layout\Main\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseObject_ListView\Caption" xml:space="preserve">
+    <value>Base Object</value>
+  </data>
+  <data name="Views\BaseObject_ListView\Columns\Oid\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseObject_ListView\Columns\Oid\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseObject_ListView\Columns\Oid\Caption" xml:space="preserve">
+    <value>Oid</value>
+  </data>
+  <data name="Views\BaseObject_ListView\Columns\Oid\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseObject_ListView\Columns\Oid\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseObject_ListView\Columns\Oid\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseObject_ListView\Columns\Oid\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseObject_LookupListView\Caption" xml:space="preserve">
+    <value>Base Object</value>
+  </data>
+  <data name="Views\BaseObject_LookupListView\Columns\Oid\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseObject_LookupListView\Columns\Oid\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseObject_LookupListView\Columns\Oid\Caption" xml:space="preserve">
+    <value>Oid</value>
+  </data>
+  <data name="Views\BaseObject_LookupListView\Columns\Oid\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseObject_LookupListView\Columns\Oid\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseObject_LookupListView\Columns\Oid\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\BaseObject_LookupListView\Columns\Oid\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+</root>

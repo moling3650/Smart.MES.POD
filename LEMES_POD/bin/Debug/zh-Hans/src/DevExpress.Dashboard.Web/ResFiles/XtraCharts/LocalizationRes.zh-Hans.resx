@@ -1,0 +1,696 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ChartStringId.SvnOverlappedGantt" xml:space="preserve">
+    <value>甘特图</value>
+  </data>
+  <data name="ChartStringId.CmdCreatePyramidBar3DChartDescription" xml:space="preserve">
+    <value>根据类别比较值</value>
+  </data>
+  <data name="ChartStringId.WeightPatternDescription" xml:space="preserve">
+    <value>权重</value>
+  </data>
+  <data name="ChartStringId.WizNumericMeasureUnitOnes" xml:space="preserve">
+    <value>部分</value>
+  </data>
+  <data name="ChartStringId.WizDateTimeMeasureUnitQuarter" xml:space="preserve">
+    <value>季度</value>
+  </data>
+  <data name="ChartStringId.CmdCreatePointChartMenuCaption" xml:space="preserve">
+    <value>点状图</value>
+  </data>
+  <data name="ChartStringId.VerbAbout" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="ChartStringId.WizScaleModeContinuous" xml:space="preserve">
+    <value>连续</value>
+  </data>
+  <data name="ChartStringId.RibbonOtherPageCaption" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="ChartStringId.SvnStock" xml:space="preserve">
+    <value>股指图</value>
+  </data>
+  <data name="ChartStringId.PltBlue" xml:space="preserve">
+    <value>蓝色</value>
+  </data>
+  <data name="ChartStringId.ColumnColor" xml:space="preserve">
+    <value>颜色</value>
+  </data>
+  <data name="ChartStringId.WizAnnotationConnectorStyleLine" xml:space="preserve">
+    <value>线</value>
+  </data>
+  <data name="ChartStringId.WizGradientBottomToTop" xml:space="preserve">
+    <value>底部到顶部</value>
+  </data>
+  <data name="ChartStringId.WizSeriesLabelTextOrientationBottomToTop" xml:space="preserve">
+    <value>底部到顶部</value>
+  </data>
+  <data name="ChartStringId.WizAnchorPointPane" xml:space="preserve">
+    <value>面板</value>
+  </data>
+  <data name="ChartStringId.WizScaleModeManual" xml:space="preserve">
+    <value>手册</value>
+  </data>
+  <data name="ChartStringId.WizNoBackImage" xml:space="preserve">
+    <value>(无)</value>
+  </data>
+  <data name="ChartStringId.WizPieSeriesLabelPositionOutside" xml:space="preserve">
+    <value>外部</value>
+  </data>
+  <data name="ChartStringId.WizResolveOverlappingModeNone" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="ChartStringId.CmdCreatePieChartPlaceHolderMenuCaption" xml:space="preserve">
+    <value>饼状图</value>
+  </data>
+  <data name="ChartStringId.WizValueLevelWeight" xml:space="preserve">
+    <value>权重</value>
+  </data>
+  <data name="ChartStringId.WizDateTimeMeasureUnitWeek" xml:space="preserve">
+    <value>周</value>
+  </data>
+  <data name="ChartStringId.WizFunnelSeriesLabelPositionCenter" xml:space="preserve">
+    <value>居中</value>
+  </data>
+  <data name="ChartStringId.SvnBubble" xml:space="preserve">
+    <value>气泡图</value>
+  </data>
+  <data name="ChartStringId.CmdCreateGanttChartMenuCaption" xml:space="preserve">
+    <value>甘特图</value>
+  </data>
+  <data name="ChartStringId.MenuItemClear" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="ChartStringId.WizAggregateFunctionAverage" xml:space="preserve">
+    <value>平均值</value>
+  </data>
+  <data name="ChartStringId.WizNumericGridAlignmentAuto" xml:space="preserve">
+    <value>自动</value>
+  </data>
+  <data name="ChartStringId.CmdCreateRotatedBarChartPlaceHolderMenuCaption" xml:space="preserve">
+    <value>柱状图</value>
+  </data>
+  <data name="ChartStringId.TitleSummaryFunction" xml:space="preserve">
+    <value>汇总函数</value>
+  </data>
+  <data name="ChartStringId.CmdCreateLineChartMenuCaption" xml:space="preserve">
+    <value>线</value>
+  </data>
+  <data name="ChartStringId.WizBubbleLabelPositionCenter" xml:space="preserve">
+    <value>居中</value>
+  </data>
+  <data name="ChartStringId.PropertyGridCategory_Data" xml:space="preserve">
+    <value>数据</value>
+  </data>
+  <data name="ChartStringId.SvnPoint" xml:space="preserve">
+    <value>点状图</value>
+  </data>
+  <data name="ChartStringId.WizAggregateFunctionFinancial" xml:space="preserve">
+    <value>金融</value>
+  </data>
+  <data name="ChartStringId.CmdColumnPyramidGroupPlaceHolderMenuCaption" xml:space="preserve">
+    <value>棱锥体</value>
+  </data>
+  <data name="ChartStringId.CmdExportPlaceHolderMenuCaption" xml:space="preserve">
+    <value>导出</value>
+  </data>
+  <data name="ChartStringId.SvnSideBySideBar" xml:space="preserve">
+    <value>柱状图</value>
+  </data>
+  <data name="ChartStringId.WizScrollBarAlignmentNear" xml:space="preserve">
+    <value>附近</value>
+  </data>
+  <data name="ChartStringId.WizBarSeriesLabelPositionCenter" xml:space="preserve">
+    <value>居中</value>
+  </data>
+  <data name="ChartStringId.PropertyGridCategory_Behavior" xml:space="preserve">
+    <value>行为</value>
+  </data>
+  <data name="ChartStringId.WizDataMemberNoneString" xml:space="preserve">
+    <value>(无)</value>
+  </data>
+  <data name="ChartStringId.WizAggregateFunctionSum" xml:space="preserve">
+    <value>总和</value>
+  </data>
+  <data name="ChartStringId.RibbonAppearanceGroupCaption" xml:space="preserve">
+    <value>外观</value>
+  </data>
+  <data name="ChartStringId.CmdCreateConeStackedBar3DChartDescription" xml:space="preserve">
+    <value>根据类别比较每个值占总值的百分比</value>
+  </data>
+  <data name="ChartStringId.WizHatchCross" xml:space="preserve">
+    <value>交叉线</value>
+  </data>
+  <data name="ChartStringId.SvnPie" xml:space="preserve">
+    <value>饼状图</value>
+  </data>
+  <data name="ChartStringId.WizBubbleLabelValueToDisplayValue" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="ChartStringId.WizBar3DModelCylinder" xml:space="preserve">
+    <value>圆柱体</value>
+  </data>
+  <data name="ChartStringId.CmdRangeGroupPlaceHolderMenuCaption" xml:space="preserve">
+    <value>范围</value>
+  </data>
+  <data name="ChartStringId.WizDateTimeScaleModeManual" xml:space="preserve">
+    <value>手册</value>
+  </data>
+  <data name="ChartStringId.CmdCreateCylinderBar3DChartDescription" xml:space="preserve">
+    <value>根据类别比较值</value>
+  </data>
+  <data name="ChartStringId.ValuePatternDescription" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="ChartStringId.WizChartPageName" xml:space="preserve">
+    <value>图表</value>
+  </data>
+  <data name="ChartStringId.CmdGanttGroupPlaceHolderMenuCaption" xml:space="preserve">
+    <value>甘特图</value>
+  </data>
+  <data name="ChartStringId.WizPositionRight" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="ChartStringId.WizAnchorPointChart" xml:space="preserve">
+    <value>图表</value>
+  </data>
+  <data name="ChartStringId.CmdCreateStepAreaChartMenuCaption" xml:space="preserve">
+    <value>步径面积图</value>
+  </data>
+  <data name="ChartStringId.WizValueLevelValue" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="ChartStringId.WizHatchMin" xml:space="preserve">
+    <value>最小值</value>
+  </data>
+  <data name="ChartStringId.CmdColumnCylinderGroupPlaceHolderMenuCaption" xml:space="preserve">
+    <value>圆柱体</value>
+  </data>
+  <data name="ChartStringId.PltDefault" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="ChartStringId.ArgumentMember" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="ChartStringId.WizPositionCenter" xml:space="preserve">
+    <value>居中</value>
+  </data>
+  <data name="ChartStringId.CmdPrintMenuCaption" xml:space="preserve">
+    <value>打印</value>
+  </data>
+  <data name="ChartStringId.MenuItemDelete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="ChartStringId.MenuItemMoveUp" xml:space="preserve">
+    <value>上移</value>
+  </data>
+  <data name="ChartStringId.AppDefault" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="ChartStringId.CloseValueMember" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="ChartStringId.CmdCreateCylinderStackedBar3DChartDescription" xml:space="preserve">
+    <value>根据类别比较每个值占总值的百分比</value>
+  </data>
+  <data name="ChartStringId.WizSeriesPageName" xml:space="preserve">
+    <value>系列</value>
+  </data>
+  <data name="ChartStringId.SvnLine" xml:space="preserve">
+    <value>线</value>
+  </data>
+  <data name="ChartStringId.PropertyGridCategory_Appearance" xml:space="preserve">
+    <value>外观</value>
+  </data>
+  <data name="ChartStringId.ErrorTitle" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="ChartStringId.CmdCreateLineChartPlaceHolderMenuCaption" xml:space="preserve">
+    <value>线</value>
+  </data>
+  <data name="ChartStringId.WizBarSeriesLabelPositionTop" xml:space="preserve">
+    <value>顶部</value>
+  </data>
+  <data name="ChartStringId.PltRed" xml:space="preserve">
+    <value>红色</value>
+  </data>
+  <data name="ChartStringId.DefaultMaxValue" xml:space="preserve">
+    <value>最大值</value>
+  </data>
+  <data name="ChartStringId.WizFunnelSeriesLabelPositionLeft" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="ChartStringId.WizShapeKindRectangle" xml:space="preserve">
+    <value>矩形</value>
+  </data>
+  <data name="ChartStringId.WizDateTimeMeasureUnitSecond" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="ChartStringId.WizResolveOverlappingModeDefault" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="ChartStringId.WizFunnelSeriesLabelPositionRight" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="ChartStringId.CmdPointGroupPlaceHolderMenuCaption" xml:space="preserve">
+    <value>点状图</value>
+  </data>
+  <data name="ChartStringId.PltOrange" xml:space="preserve">
+    <value>橙色</value>
+  </data>
+  <data name="ChartStringId.CmdColumnConeGroupPlaceHolderMenuCaption" xml:space="preserve">
+    <value>圆锥体</value>
+  </data>
+  <data name="ChartStringId.WizFormTitle" xml:space="preserve">
+    <value>制表向导</value>
+  </data>
+  <data name="ChartStringId.WizAggregateFunctionMaximum" xml:space="preserve">
+    <value>最大</value>
+  </data>
+  <data name="ChartStringId.WizDataPageName" xml:space="preserve">
+    <value>数据</value>
+  </data>
+  <data name="ChartStringId.DefaultMinValue" xml:space="preserve">
+    <value>最小值</value>
+  </data>
+  <data name="ChartStringId.PltGreen" xml:space="preserve">
+    <value>绿色</value>
+  </data>
+  <data name="ChartStringId.CmdCreatePieChartMenuCaption" xml:space="preserve">
+    <value>饼状图</value>
+  </data>
+  <data name="ChartStringId.WizStringAlignmentFar" xml:space="preserve">
+    <value>远</value>
+  </data>
+  <data name="ChartStringId.ColumnAnnotations" xml:space="preserve">
+    <value>注释</value>
+  </data>
+  <data name="ChartStringId.WizAxisLabelResolveOverlappingModeNone" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="ChartStringId.CmdCreateFunnelChartMenuCaption" xml:space="preserve">
+    <value>漏斗形</value>
+  </data>
+  <data name="ChartStringId.WizGradientLeftToRight" xml:space="preserve">
+    <value>自左向右</value>
+  </data>
+  <data name="ChartStringId.WizValueLevelLow" xml:space="preserve">
+    <value>低</value>
+  </data>
+  <data name="ChartStringId.WizBarSeriesLabelPositionAuto" xml:space="preserve">
+    <value>自动</value>
+  </data>
+  <data name="ChartStringId.WizPieSeriesLabelPositionTangent" xml:space="preserve">
+    <value>正切线</value>
+  </data>
+  <data name="ChartStringId.WeightMember" xml:space="preserve">
+    <value>权重</value>
+  </data>
+  <data name="ChartStringId.WizSeriesLabelTextOrientationTopToBottom" xml:space="preserve">
+    <value>顶部到底部</value>
+  </data>
+  <data name="ChartStringId.MenuItemMoveDown" xml:space="preserve">
+    <value>下移</value>
+  </data>
+  <data name="ChartStringId.CmdCreateAreaChartPlaceHolderMenuCaption" xml:space="preserve">
+    <value>区域</value>
+  </data>
+  <data name="ChartStringId.CmdCreateStepLineChartDescription" xml:space="preserve">
+    <value>3D步径面积图</value>
+  </data>
+  <data name="ChartStringId.CmdCreateBarChartPlaceHolderMenuCaption" xml:space="preserve">
+    <value>列</value>
+  </data>
+  <data name="ChartStringId.WizAnnotationConnectorStyleArrow" xml:space="preserve">
+    <value>箭头</value>
+  </data>
+  <data name="ChartStringId.WizBubbleLabelPositionOutside" xml:space="preserve">
+    <value>外部</value>
+  </data>
+  <data name="ChartStringId.WizScaleModeAutomatic" xml:space="preserve">
+    <value>自动</value>
+  </data>
+  <data name="ChartStringId.PltIndDefault" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="ChartStringId.WizAnnotationsPageName" xml:space="preserve">
+    <value>注释</value>
+  </data>
+  <data name="ChartStringId.WizChartImageSizeModeZoom" xml:space="preserve">
+    <value>缩放</value>
+  </data>
+  <data name="ChartStringId.PanesVisibilityDialogPanesColumn" xml:space="preserve">
+    <value>面板</value>
+  </data>
+  <data name="ChartStringId.WizAxesAlignmentNear" xml:space="preserve">
+    <value>附近</value>
+  </data>
+  <data name="ChartStringId.OpenValueMember" xml:space="preserve">
+    <value>打开</value>
+  </data>
+  <data name="ChartStringId.StackedGroupPrefix" xml:space="preserve">
+    <value>分组</value>
+  </data>
+  <data name="ChartStringId.WizDataFiltersDisabled" xml:space="preserve">
+    <value>(无)</value>
+  </data>
+  <data name="ChartStringId.WizAxesAlignmentFar" xml:space="preserve">
+    <value>远</value>
+  </data>
+  <data name="ChartStringId.WizStringAlignmentNear" xml:space="preserve">
+    <value>附近</value>
+  </data>
+  <data name="ChartStringId.SvnStepArea" xml:space="preserve">
+    <value>步径面积图</value>
+  </data>
+  <data name="ChartStringId.CmdCreateBubbleChartMenuCaption" xml:space="preserve">
+    <value>气泡图</value>
+  </data>
+  <data name="ChartStringId.WizSeriesPointPageName" xml:space="preserve">
+    <value>点</value>
+  </data>
+  <data name="ChartStringId.WizNumericMeasureUnitMillions" xml:space="preserve">
+    <value>数以百万计</value>
+  </data>
+  <data name="ChartStringId.WizSeriesLabelTextOrientationHorizontal" xml:space="preserve">
+    <value>水平</value>
+  </data>
+  <data name="ChartStringId.WizDateTimeMeasureUnitYear" xml:space="preserve">
+    <value>年</value>
+  </data>
+  <data name="ChartStringId.SvnSplineArea" xml:space="preserve">
+    <value>样条区域图</value>
+  </data>
+  <data name="ChartStringId.WizAnnotationConnectorStyleNone" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="ChartStringId.WizPanesPageName" xml:space="preserve">
+    <value>面板</value>
+  </data>
+  <data name="ChartStringId.ArgumentPatternDescription" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="ChartStringId.PropertyGridCategory_Elements" xml:space="preserve">
+    <value>元素</value>
+  </data>
+  <data name="ChartStringId.CmdCreateStepLine3DChartDescription" xml:space="preserve">
+    <value>3D步径面积图</value>
+  </data>
+  <data name="ChartStringId.HighValueMember" xml:space="preserve">
+    <value>高</value>
+  </data>
+  <data name="ChartStringId.CmdCreateStepArea3DChartDescription" xml:space="preserve">
+    <value>3D步径面积图</value>
+  </data>
+  <data name="ChartStringId.SvnArea" xml:space="preserve">
+    <value>区域</value>
+  </data>
+  <data name="ChartStringId.WizAggregateFunctionNone" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="ChartStringId.MenuItemAdd" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="ChartStringId.WizScrollBarAlignmentFar" xml:space="preserve">
+    <value>远</value>
+  </data>
+  <data name="ChartStringId.WizIndentUndefined" xml:space="preserve">
+    <value>未定义</value>
+  </data>
+  <data name="ChartStringId.WizErrorMessageTitle" xml:space="preserve">
+    <value>制表向导</value>
+  </data>
+  <data name="ChartStringId.CmdCreateRotatedBarChartMenuCaption" xml:space="preserve">
+    <value>柱状图</value>
+  </data>
+  <data name="ChartStringId.CmdFinancialGroupPlaceHolderMenuCaption" xml:space="preserve">
+    <value>金融</value>
+  </data>
+  <data name="ChartStringId.WizDateTimeMeasureUnitDay" xml:space="preserve">
+    <value>天</value>
+  </data>
+  <data name="ChartStringId.WizStringAlignmentCenter" xml:space="preserve">
+    <value>居中</value>
+  </data>
+  <data name="ChartStringId.WizPositionLeft" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="ChartStringId.WizDateTimeGridAlignmentAuto" xml:space="preserve">
+    <value>自动</value>
+  </data>
+  <data name="ChartStringId.WizHatchVertical" xml:space="preserve">
+    <value>垂直</value>
+  </data>
+  <data name="ChartStringId.WizBar3DModelPyramid" xml:space="preserve">
+    <value>棱锥体</value>
+  </data>
+  <data name="ChartStringId.WizHatchHorizontal" xml:space="preserve">
+    <value>水平</value>
+  </data>
+  <data name="ChartStringId.SvnFunnel" xml:space="preserve">
+    <value>漏斗形</value>
+  </data>
+  <data name="ChartStringId.WizGradientRightToLeft" xml:space="preserve">
+    <value>自右向左</value>
+  </data>
+  <data name="ChartStringId.CmdFunnelGroupPlaceHolderMenuCaption" xml:space="preserve">
+    <value>漏斗形</value>
+  </data>
+  <data name="ChartStringId.WizLegendPageName" xml:space="preserve">
+    <value>图例</value>
+  </data>
+  <data name="ChartStringId.PropertyGridCategory_Layout" xml:space="preserve">
+    <value>布局</value>
+  </data>
+  <data name="ChartStringId.WizBubbleLabelValueToDisplayWeight" xml:space="preserve">
+    <value>权重</value>
+  </data>
+  <data name="ChartStringId.WizIndentDefault" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="ChartStringId.WizDateTimeMeasureUnitMonth" xml:space="preserve">
+    <value>月</value>
+  </data>
+  <data name="ChartStringId.CmdCreateConeBar3DChartDescription" xml:space="preserve">
+    <value>根据类别比较值</value>
+  </data>
+  <data name="ChartStringId.WizPieSeriesLabelPositionInside" xml:space="preserve">
+    <value>内部</value>
+  </data>
+  <data name="ChartStringId.LegendPrefix" xml:space="preserve">
+    <value>图例</value>
+  </data>
+  <data name="ChartStringId.PanesVisibilityDialogVisibleColumn" xml:space="preserve">
+    <value>显示</value>
+  </data>
+  <data name="ChartStringId.WizNumericMeasureUnitTens" xml:space="preserve">
+    <value>数万</value>
+  </data>
+  <data name="ChartStringId.WizBar3DModelCone" xml:space="preserve">
+    <value>圆锥体</value>
+  </data>
+  <data name="ChartStringId.CmdPrintPreviewMenuCaption" xml:space="preserve">
+    <value>打印预览</value>
+  </data>
+  <data name="ChartStringId.WizAggregateFunctionCount" xml:space="preserve">
+    <value>计数</value>
+  </data>
+  <data name="ChartStringId.CmdChangeAppearancePlaceHolderMenuCaption" xml:space="preserve">
+    <value>外观</value>
+  </data>
+  <data name="ChartStringId.PltPaper" xml:space="preserve">
+    <value>纸张</value>
+  </data>
+  <data name="ChartStringId.ColumnLinks" xml:space="preserve">
+    <value>链接</value>
+  </data>
+  <data name="ChartStringId.WizPieSeriesLabelPositionTwoColumns" xml:space="preserve">
+    <value>两列</value>
+  </data>
+  <data name="ChartStringId.LowValueMember" xml:space="preserve">
+    <value>低</value>
+  </data>
+  <data name="ChartStringId.WizNumericMeasureUnitThousands" xml:space="preserve">
+    <value>千</value>
+  </data>
+  <data name="ChartStringId.SeriesNamePatternDescription" xml:space="preserve">
+    <value>系列名称</value>
+  </data>
+  <data name="ChartStringId.WizAggregateFunctionMinimum" xml:space="preserve">
+    <value>最小值</value>
+  </data>
+  <data name="ChartStringId.RibbonDesignPageCaption" xml:space="preserve">
+    <value>设计</value>
+  </data>
+  <data name="ChartStringId.CmdCreateSplineAreaChartMenuCaption" xml:space="preserve">
+    <value>样条区域图</value>
+  </data>
+  <data name="ChartStringId.WizValueLevelHigh" xml:space="preserve">
+    <value>高</value>
+  </data>
+  <data name="ChartStringId.WizAppearancePageName" xml:space="preserve">
+    <value>外观</value>
+  </data>
+  <data name="ChartStringId.MenuItemInsert" xml:space="preserve">
+    <value>插入</value>
+  </data>
+  <data name="ChartStringId.CmdCreateAreaChartMenuCaption" xml:space="preserve">
+    <value>区域</value>
+  </data>
+  <data name="ChartStringId.CmdCreateStockChartMenuCaption" xml:space="preserve">
+    <value>股指图</value>
+  </data>
+  <data name="ChartStringId.ValueMember" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="ChartStringId.FunctionArgumentName" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="ChartStringId.CmdCreatePyramidStackedBar3DChartDescription" xml:space="preserve">
+    <value>根据类别比较每个值占总值的百分比</value>
+  </data>
+  <data name="ChartStringId.WizValueLevelClose" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="ChartStringId.WizGradientTopToBottom" xml:space="preserve">
+    <value>顶部到底部</value>
+  </data>
+  <data name="ChartStringId.WizValueLevelOpen" xml:space="preserve">
+    <value>打开</value>
+  </data>
+  <data name="ChartStringId.WizNumericMeasureUnitBillions" xml:space="preserve">
+    <value>数十亿</value>
+  </data>
+  <data name="ChartStringId.WizNumericMeasureUnitCustom" xml:space="preserve">
+    <value>自定义</value>
+  </data>
+  <data name="ChartStringId.WizChartImageSizeModeStretch" xml:space="preserve">
+    <value>拉伸</value>
+  </data>
+  <data name="ChartStringId.PltYellow" xml:space="preserve">
+    <value>黄色</value>
+  </data>
+  <data name="ChartStringId.WizDateTimeMeasureUnitHour" xml:space="preserve">
+    <value>小时</value>
+  </data>
+  <data name="ChartStringId.WizHatchMax" xml:space="preserve">
+    <value>最大值</value>
+  </data>
+</root>

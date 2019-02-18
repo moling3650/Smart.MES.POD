@@ -1,0 +1,9 @@
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP002\bin\Release\DP002.dll
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP002\bin\Release\DP002.pdb
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP002\bin\Release\ILE.dll
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP002\bin\Release\LEDAO.dll
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP002\bin\Release\Newtonsoft.Json.dll
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP002\bin\Release\ILE.pdb
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP002\bin\Release\LEDAO.pdb
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP002\obj\Release\DP002.dll
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP002\obj\Release\DP002.pdb

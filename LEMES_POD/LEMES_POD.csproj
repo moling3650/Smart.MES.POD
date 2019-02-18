@@ -1,0 +1,828 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FEEC80F0-6C85-4B60-9658-CDA3D03C10A7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LEMES_POD</RootNamespace>
+    <AssemblyName>LEMES_POD</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>6</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>804FC8A1196B4889AEFF32CE0E4DF7518B91F5DC</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>LEMES_POD_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ComponentFactory.Krypton.Toolkit, Version=4.3.2.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ComponentFactory.Krypton.Toolkit.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v17.2.Core, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v17.2.Core, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v17.2.Core, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v17.2.UI, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v17.2.Wizard, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeList.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\IdentityScope.cs" />
+    <Compile Include="BLL\ServiceReference.cs" />
+    <Compile Include="BLL\WIP.cs" />
+    <Compile Include="Component\DriveFactory.cs" />
+    <Compile Include="Component\JobConstructor.cs" />
+    <Compile Include="Component\JobProcessor.cs" />
+    <Compile Include="Component\JobSubmit.cs" />
+    <Compile Include="Component\Machine.cs" />
+    <Compile Include="Component\Process.cs" />
+    <Compile Include="Component\StepConstructor .cs" />
+    <Compile Include="Component\Tool.cs" />
+    <Compile Include="CustomControl\AccessoryPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomControl\AccessoryPanel.Designer.cs">
+      <DependentUpon>AccessoryPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControl\MachinePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomControl\MachinePanel.Designer.cs">
+      <DependentUpon>MachinePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControl\MouldPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomControl\MouldPanel.Designer.cs">
+      <DependentUpon>MouldPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControl\WorkToolPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomControl\WorkToolPanel.Designer.cs">
+      <DependentUpon>WorkToolPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRepair.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRepair.designer.cs">
+      <DependentUpon>FrmRepair.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSFCLstByOrderNo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSFCLstByOrderNo.Designer.cs">
+      <DependentUpon>FrmSFCLstByOrderNo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProgressFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgressFrm.Designer.cs">
+      <DependentUpon>ProgressFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ServiceReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="SplashForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashForm.Designer.cs">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestPingServer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForm\CheckPassWord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForm\CheckPassWord.Designer.cs">
+      <DependentUpon>CheckPassWord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserForm\CloseJude.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForm\CloseJude.Designer.cs">
+      <DependentUpon>CloseJude.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserForm\Downloadpackage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForm\Downloadpackage.Designer.cs">
+      <DependentUpon>Downloadpackage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserForm\FedBatchManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForm\FedBatchManage.Designer.cs">
+      <DependentUpon>FedBatchManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserForm\MachineOFF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForm\MachineOFF.Designer.cs">
+      <DependentUpon>MachineOFF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserForm\MachineReportFault.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForm\MachineReportFault.Designer.cs">
+      <DependentUpon>MachineReportFault.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserForm\NumForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForm\NumForm.Designer.cs">
+      <DependentUpon>NumForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserForm\ProcessSonStepForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForm\ProcessSonStepForm.designer.cs">
+      <DependentUpon>ProcessSonStepForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserForm\SelectUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForm\SelectUser.Designer.cs">
+      <DependentUpon>SelectUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControl\StepPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomControl\StepPanel.Designer.cs">
+      <DependentUpon>StepPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControl\SubmitBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomControl\SubmitBar.Designer.cs">
+      <DependentUpon>SubmitBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FeedForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FeedForm.Designer.cs">
+      <DependentUpon>FeedForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LotPacker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LotPacker.Designer.cs">
+      <DependentUpon>LotPacker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserForm\SelGridForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForm\SelGridForm.Designer.cs">
+      <DependentUpon>SelGridForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemConsole.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemConsole.Designer.cs">
+      <DependentUpon>SystemConsole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tools\ComboboxItem.cs" />
+    <Compile Include="Tools\DynamicPopUp.cs" />
+    <Compile Include="Tools\JsonTool.cs" />
+    <Compile Include="Tools\ModelConvertHelper.cs" />
+    <Compile Include="Tools\ServiceReferenceManager.cs" />
+    <Compile Include="UserForm\Sparepart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForm\Sparepart.Designer.cs">
+      <DependentUpon>Sparepart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserForm\UnpackPackForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForm\UnpackPackForm.Designer.cs">
+      <DependentUpon>UnpackPackForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserForm\ReturnMateralNumForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForm\ReturnMateralNumForm.Designer.cs">
+      <DependentUpon>ReturnMateralNumForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserForm\Accessories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForm\Accessories.Designer.cs">
+      <DependentUpon>Accessories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Voice\voice.cs" />
+    <Compile Include="WorkOrderFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkOrderFrom.Designer.cs">
+      <DependentUpon>WorkOrderFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkOrderFrom1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkOrderFrom1.Designer.cs">
+      <DependentUpon>WorkOrderFrom1.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CustomControl\AccessoryPanel.resx">
+      <DependentUpon>AccessoryPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControl\MachinePanel.resx">
+      <DependentUpon>MachinePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControl\MouldPanel.resx">
+      <DependentUpon>MouldPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControl\WorkToolPanel.resx">
+      <DependentUpon>WorkToolPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRepair.resx">
+      <DependentUpon>FrmRepair.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSFCLstByOrderNo.resx">
+      <DependentUpon>FrmSFCLstByOrderNo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgressFrm.resx">
+      <DependentUpon>ProgressFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashForm.resx">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestPingServer.resx">
+      <DependentUpon>TestPingServer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserForm\CheckPassWord.resx">
+      <DependentUpon>CheckPassWord.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserForm\CloseJude.resx">
+      <DependentUpon>CloseJude.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserForm\Downloadpackage.resx">
+      <DependentUpon>Downloadpackage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserForm\FedBatchManage.resx">
+      <DependentUpon>FedBatchManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserForm\MachineOFF.resx">
+      <DependentUpon>MachineOFF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserForm\MachineReportFault.resx">
+      <DependentUpon>MachineReportFault.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserForm\NumForm.resx">
+      <DependentUpon>NumForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserForm\ProcessSonStepForm.resx">
+      <DependentUpon>ProcessSonStepForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserForm\SelectUser.resx">
+      <DependentUpon>SelectUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControl\StepPanel.resx">
+      <DependentUpon>StepPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControl\SubmitBar.resx">
+      <DependentUpon>SubmitBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FeedForm.resx">
+      <DependentUpon>FeedForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LotPacker.resx">
+      <DependentUpon>LotPacker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserForm\SelGridForm.resx">
+      <DependentUpon>SelGridForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemConsole.resx">
+      <DependentUpon>SystemConsole.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserForm\Sparepart.resx">
+      <DependentUpon>Sparepart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserForm\UnpackPackForm.resx">
+      <DependentUpon>UnpackPackForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserForm\ReturnMateralNumForm.resx">
+      <DependentUpon>ReturnMateralNumForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserForm\Accessories.resx">
+      <DependentUpon>Accessories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkOrderFrom.resx">
+      <DependentUpon>WorkOrderFrom.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkOrderFrom1.resx">
+      <DependentUpon>WorkOrderFrom1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\DataSources\LEDIS.CompositeType.datasource" />
+    <None Include="Properties\DataSources\System.Data.DataTable.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Service References\ServiceReference\LEService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceReference\LEService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceReference\LEService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceReference\LEService3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceReference\Service1.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sitemap_color.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\applications_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-back_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-down_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-forward_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-up_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chat_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\confirm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contacts_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\control-forward_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\control-pause_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\control-play_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\control-reverse_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\control-skip-bw_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\control-skip-fw_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\control-stop_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cut_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\disc-media_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\documents_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\favorites_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\favorites-add_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\finance_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder-closed_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder-open_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hard-disk_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\history_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\import_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mail_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movie_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\music_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\network_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notes_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paste_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pictures_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redo_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\security-locked_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\security-unlocked_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping-cart_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stop_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undo_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\web_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoom-in_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoom-out_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\door_out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DC_Drivers\DC_OpcMonitor\DC_OpcMonitor.csproj">
+      <Project>{93B6123F-0A2A-426E-AAE3-802AF8B4B7ED}</Project>
+      <Name>DC_OpcMonitor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ILE\ILE.csproj">
+      <Project>{7BB4BE79-70CF-40EA-BB29-5D4A8914ED05}</Project>
+      <Name>ILE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LEDAO\LEDAO.csproj">
+      <Project>{2012C59C-413B-4F62-8FF8-18B4E3D25800}</Project>
+      <Name>LEDAO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LEDIS\LEDIS.csproj">
+      <Project>{977C2775-9990-4F97-9115-42D2E0AAA052}</Project>
+      <Name>LEDIS</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_put.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart_bar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_out_longer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database_key.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_rotate_clockwise.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder_remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\no.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pictureBox1.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bitbug_favicon.ico" />
+    <None Include="Resources\resultset_previous.png" />
+    <None Include="Resources\system_save.gif" />
+    <None Include="Resources\sign-alert.png" />
+    <None Include="Resources\pause_blue.png" />
+    <None Include="Resources\user_go.png" />
+    <None Include="Resources\user_cross.png" />
+    <None Include="Resources\reload.png" />
+    <None Include="Resources\configure.png" />
+    <None Include="Resources\smart.mes.png" />
+    <None Include="Service References\ServiceReference\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\ServiceReference\configuration.svcinfo" />
+    <None Include="Service References\ServiceReference\configuration91.svcinfo" />
+    <None Include="Service References\ServiceReference\LEService.disco" />
+    <None Include="Resources\timg1.jpg" />
+    <None Include="Resources\folder_up1.png" />
+    <None Include="Resources\folder_brick.png" />
+    <None Include="Resources\cancel_32 拷贝副本.png" />
+    <None Include="Resources\confirm_32 拷贝副本.png" />
+    <None Include="Resources\confirm_32.png" />
+    <None Include="Resources\documents_321.png" />
+    <None Include="Resources\bullet_wrench.png" />
+    <None Include="Resources\brick.png" />
+    <None Include="Resources\cart_put.png" />
+    <None Include="Resources\connect.png" />
+    <None Include="Resources\text_list_bullets.png" />
+    <None Include="Resources\chart_organisation.png" />
+    <None Include="Resources\stop_green.png" />
+    <None Include="Resources\stop_red.png" />
+    <None Include="Resources\resultset_next.png" />
+    <None Include="Resources\correct.png" />
+    <None Include="Resources\ball_green.png" />
+    <None Include="Resources\ball_red.png" />
+    <None Include="Resources\ball_y.png" />
+    <None Include="Resources\attention.png" />
+    <None Include="Resources\arrow_undo.png" />
+    <None Include="Resources\arrow_refresh.png" />
+    <None Include="Resources\application_put1.png" />
+    <None Include="Resources\application_view_columns.png" />
+    <None Include="Resources\accept.png" />
+    <None Include="Resources\app_large_icons.png" />
+    <None Include="Resources\applications2.png" />
+    <None Include="Resources\ball_white.png" />
+    <Content Include="Resources\baojing.gif" />
+    <None Include="Resources\bt_pause.png" />
+    <None Include="Resources\bt_stop.png" />
+    <None Include="Resources\bt_play.png" />
+    <None Include="Resources\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ServiceReference\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

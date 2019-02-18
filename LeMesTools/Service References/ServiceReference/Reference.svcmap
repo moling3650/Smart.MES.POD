@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="86dccd8b-d4c6-4785-b695-78b541918da7" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:3512/LEService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="LEService4.xsd" MetadataType="Schema" ID="48ae3385-979c-4518-b6a9-b9f7ce331d87" SourceId="1" SourceUrl="http://localhost:3512/LEService.svc?xsd=xsd1" />
+    <MetadataFile FileName="LEService41.xsd" MetadataType="Schema" ID="cd5d4a83-07bc-4527-8038-cde11e7c792c" SourceId="1" SourceUrl="http://localhost:3512/LEService.svc?xsd=xsd3" />
+    <MetadataFile FileName="LEService42.xsd" MetadataType="Schema" ID="9e2d977a-e2bf-447f-8bb2-f288d588c7f8" SourceId="1" SourceUrl="http://localhost:3512/LEService.svc?xsd=xsd0" />
+    <MetadataFile FileName="LEService43.xsd" MetadataType="Schema" ID="3ea5f78e-04c5-4c2c-bffb-d18cabc3c4dd" SourceId="1" SourceUrl="http://localhost:3512/LEService.svc?xsd=xsd2" />
+    <MetadataFile FileName="LEService1.disco" MetadataType="Disco" ID="fcd942f4-21f6-4de7-afbb-74a9507ccfd7" SourceId="1" SourceUrl="http://localhost:3512/LEService.svc?disco" />
+    <MetadataFile FileName="Service11.wsdl" MetadataType="Wsdl" ID="2c9a9c30-79da-4512-85b3-86d9dd2df436" SourceId="1" SourceUrl="http://localhost:3512/LEService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

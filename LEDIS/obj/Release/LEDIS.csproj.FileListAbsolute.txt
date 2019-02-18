@@ -1,0 +1,10 @@
+D:\work\Project\阳普\smart.mes\LEMES_POD\LEDIS\bin\LEDIS.dll
+D:\work\Project\阳普\smart.mes\LEMES_POD\LEDIS\bin\LEDIS.pdb
+D:\work\Project\阳普\smart.mes\LEMES_POD\LEDIS\bin\ILE.dll
+D:\work\Project\阳普\smart.mes\LEMES_POD\LEDIS\bin\LEDAO.dll
+D:\work\Project\阳普\smart.mes\LEMES_POD\LEDIS\bin\Newtonsoft.Json.dll
+D:\work\Project\阳普\smart.mes\LEMES_POD\LEDIS\bin\ILE.pdb
+D:\work\Project\阳普\smart.mes\LEMES_POD\LEDIS\bin\LEDAO.pdb
+D:\work\Project\阳普\smart.mes\LEMES_POD\LEDIS\obj\Release\LEDIS.csprojResolveAssemblyReference.cache
+D:\work\Project\阳普\smart.mes\LEMES_POD\LEDIS\obj\Release\LEDIS.dll
+D:\work\Project\阳普\smart.mes\LEMES_POD\LEDIS\obj\Release\LEDIS.pdb

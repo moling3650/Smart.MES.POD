@@ -1,0 +1,13 @@
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP_MouldSelection\bin\Release\DP_MouldSelection.dll.config
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP_MouldSelection\bin\Release\DP_MouldSelection.dll
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP_MouldSelection\bin\Release\DP_MouldSelection.pdb
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP_MouldSelection\bin\Release\ILE.dll
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP_MouldSelection\bin\Release\LEDAO.dll
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP_MouldSelection\bin\Release\Newtonsoft.Json.dll
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP_MouldSelection\bin\Release\ILE.pdb
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP_MouldSelection\bin\Release\LEDAO.pdb
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP_MouldSelection\obj\Release\DP_MouldSelection.Properties.Resources.resources
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP_MouldSelection\obj\Release\DP_MouldSelection.SelectionForm.resources
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP_MouldSelection\obj\Release\DP_MouldSelection.csproj.GenerateResource.Cache
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP_MouldSelection\obj\Release\DP_MouldSelection.dll
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP_MouldSelection\obj\Release\DP_MouldSelection.pdb

@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="ChanHamDIS.Service1" CodeBehind="LEService.svc.cs" %>

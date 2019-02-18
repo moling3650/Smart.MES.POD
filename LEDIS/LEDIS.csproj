@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{977C2775-9990-4F97-9115-42D2E0AAA052}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LEDIS</RootNamespace>
+    <AssemblyName>LEDIS</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DataBase, Version=1.0.0.30685, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\DataBase.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\LEMES_POD\bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\DataBase.dll" />
+    <Content Include="LEService.svc" />
+    <None Include="Resources\add_32.png" />
+    <None Include="Resources\admin_32.png" />
+    <None Include="Resources\application.png" />
+    <None Include="Resources\application_put.png" />
+    <None Include="Resources\applications_32.png" />
+    <None Include="Resources\arrow-back_32.png" />
+    <None Include="Resources\arrow-down_32.png" />
+    <None Include="Resources\arrow-forward_32.png" />
+    <None Include="Resources\arrow-up_32.png" />
+    <None Include="Resources\arrow_out_longer.png" />
+    <None Include="Resources\arrow_rotate_clockwise.png" />
+    <None Include="Resources\calendar_32.png" />
+    <None Include="Resources\cancel_32.png" />
+    <None Include="Resources\chart_bar.png" />
+    <None Include="Resources\chat_32.png" />
+    <None Include="Resources\close_32.png" />
+    <None Include="Resources\cog.png" />
+    <None Include="Resources\computer_32.png" />
+    <None Include="Resources\confirm.png" />
+    <None Include="Resources\contacts_32.png" />
+    <None Include="Resources\control-forward_32.png" />
+    <None Include="Resources\control-pause_32.png" />
+    <None Include="Resources\control-play_32.png" />
+    <None Include="Resources\control-reverse_32.png" />
+    <None Include="Resources\control-skip-bw_32.png" />
+    <None Include="Resources\control-skip-fw_32.png" />
+    <None Include="Resources\control-stop_32.png" />
+    <None Include="Resources\copy_32.png" />
+    <None Include="Resources\cut_32.png" />
+    <None Include="Resources\database_key.png" />
+    <None Include="Resources\delete_32.png" />
+    <None Include="Resources\disc-media_32.png" />
+    <None Include="Resources\documents_32.png" />
+    <None Include="Resources\door_out.png" />
+    <None Include="Resources\edit_32.png" />
+    <None Include="Resources\export_32.png" />
+    <None Include="Resources\favorites-add_32.png" />
+    <None Include="Resources\favorites_32.png" />
+    <None Include="Resources\finance_32.png" />
+    <None Include="Resources\folder-closed_32.png" />
+    <None Include="Resources\folder-open_32.png" />
+    <None Include="Resources\go.png" />
+    <None Include="Resources\group_32.png" />
+    <None Include="Resources\hard-disk_32.png" />
+    <None Include="Resources\help_32.png" />
+    <None Include="Resources\history_32.png" />
+    <None Include="Resources\home_32.png" />
+    <None Include="Resources\import_32.png" />
+    <None Include="Resources\info_32.png" />
+    <None Include="Resources\mail_32.png" />
+    <None Include="Resources\movie_32.png" />
+    <None Include="Resources\music_32.png" />
+    <None Include="Resources\network_32.png" />
+    <None Include="Resources\notes_32.png" />
+    <None Include="Resources\paste_32.png" />
+    <None Include="Resources\pictures_32.png" />
+    <None Include="Resources\print_32.png" />
+    <None Include="Resources\redo_32.png" />
+    <None Include="Resources\refresh_32.png" />
+    <None Include="Resources\report_32.png" />
+    <None Include="Resources\save_32.png" />
+    <None Include="Resources\search_32.png" />
+    <None Include="Resources\security-locked_32.png" />
+    <None Include="Resources\security-unlocked_32.png" />
+    <None Include="Resources\shopping-cart_32.png" />
+    <None Include="Resources\sitemap_color.png" />
+    <None Include="Resources\stop_32.png" />
+    <None Include="Resources\trash_32.png" />
+    <None Include="Resources\undo_32.png" />
+    <None Include="Resources\user_32.png" />
+    <None Include="Resources\web_32.png" />
+    <None Include="Resources\zoom-in_32.png" />
+    <None Include="Resources\zoom-out_32.png" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\BarCodeBing.cs" />
+    <Compile Include="BLL\Bom.cs" />
+    <Compile Include="BLL\DataPoint.cs" />
+    <Compile Include="BLL\DIC.cs" />
+    <Compile Include="BLL\Employee.cs" />
+    <Compile Include="BLL\Faillog.cs" />
+    <Compile Include="BLL\Fail_Detail.cs" />
+    <Compile Include="BLL\JobSubmit.cs" />
+    <Compile Include="BLL\Machine.cs" />
+    <Compile Include="BLL\Moulds.cs" />
+    <Compile Include="BLL\NGCode.cs" />
+    <Compile Include="BLL\NGDetect.cs" />
+    <Compile Include="BLL\OQC.cs" />
+    <Compile Include="BLL\Pack.cs" />
+    <Compile Include="BLL\Process.cs" />
+    <Compile Include="BLL\Product.cs" />
+    <Compile Include="BLL\SFC.cs" />
+    <Compile Include="BLL\SFCConsume.cs" />
+    <Compile Include="BLL\SFC_ProcessData.cs" />
+    <Compile Include="BLL\SSW.cs" />
+    <Compile Include="BLL\Station.cs" />
+    <Compile Include="BLL\Step.cs" />
+    <Compile Include="BLL\WIP.cs" />
+    <Compile Include="BLL\WorkDispatching.cs" />
+    <Compile Include="BLL\WorkOrder.cs" />
+    <Compile Include="BLL\ConResult.cs" />
+    <Compile Include="BLL\WorkShop.cs" />
+    <Compile Include="BLL\ProcessFlow.cs" />
+    <Compile Include="Comm\LogHelp.cs" />
+    <Compile Include="JsonTool.cs" />
+    <Compile Include="LEService.svc.cs">
+      <DependentUpon>LEService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="IService.cs" />
+    <Compile Include="MaterialConsume.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ILE\ILE.csproj">
+      <Project>{7BB4BE79-70CF-40EA-BB29-5D4A8914ED05}</Project>
+      <Name>ILE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LEDAO\LEDAO.csproj">
+      <Project>{2012C59C-413B-4F62-8FF8-18B4E3D25800}</Project>
+      <Name>LEDAO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>41927</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+          <EnableWcfTestClientForSVCDefaultValue>True</EnableWcfTestClientForSVCDefaultValue>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

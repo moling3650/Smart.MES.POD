@@ -1,0 +1,15 @@
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP003\bin\Release\DP003.dll
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP003\bin\Release\DP003.pdb
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP003\bin\Release\ILE.dll
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP003\bin\Release\LEDAO.dll
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP003\bin\Release\LEMES_POD.exe
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP003\bin\Release\Newtonsoft.Json.dll
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP003\bin\Release\LEDIS.dll
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP003\bin\Release\DataBase.dll
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP003\bin\Release\ILE.pdb
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP003\bin\Release\LEDAO.pdb
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP003\bin\Release\LEMES_POD.pdb
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP003\bin\Release\LEDIS.pdb
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP003\obj\Release\DP003.csprojResolveAssemblyReference.cache
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP003\obj\Release\DP003.dll
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP003\obj\Release\DP003.pdb

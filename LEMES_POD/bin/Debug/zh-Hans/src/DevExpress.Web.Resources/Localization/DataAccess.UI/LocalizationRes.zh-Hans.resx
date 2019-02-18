@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DataAccessUIStringId.JoinEditorEqualOperator" xml:space="preserve">
+    <value>等于</value>
+  </data>
+  <data name="DataAccessUIStringId.JoinEditorNotEqualOperator" xml:space="preserve">
+    <value>不等于</value>
+  </data>
+  <data name="DataAccessUIStringId.JoinInformation" xml:space="preserve">
+    <value>加入信息</value>
+  </data>
+  <data name="DataAccessUIStringId.LoadingDataCustomError" xml:space="preserve">
+    <value>错误消息：{0}</value>
+  </data>
+  <data name="DataAccessUIStringId.LoadingDataException" xml:space="preserve">
+    <value>数据加载失败，因为发生了异常。</value>
+  </data>
+  <data name="DataAccessUIStringId.LoadingDataSourceAborted" xml:space="preserve">
+    <value>已中止数据加载。</value>
+  </data>
+  <data name="DataAccessUIStringId.LoadingDataSourceOpeningConnectionError" xml:space="preserve">
+    <value>连接名称: {0}错误消息：{1}</value>
+  </data>
+  <data name="DataAccessUIStringId.LoadingDatasourceOutOfMemoryError" xml:space="preserve">
+    <value>没有足够的内存来加载数据</value>
+  </data>
+  <data name="DataAccessUIStringId.MasterDetailEditorColumnsHasDifferentTypesConfirmation" xml:space="preserve">
+    <value>'{0}'.'{1}' 和 '{3}'.'{4}' 的列具有不同的类型 ({2} 和 {5})。您要继续吗?</value>
+  </data>
+  <data name="DataAccessUIStringId.MasterDetailEditorEditQueryRelations" xml:space="preserve">
+    <value>编辑查询"{0}"的关系</value>
+  </data>
+  <data name="DataAccessUIStringId.MasterDetailEditorEditRelation" xml:space="preserve">
+    <value>编辑关系</value>
+  </data>
+  <data name="DataAccessUIStringId.MasterDetailEditorForm_Title" xml:space="preserve">
+    <value>主-从关系编辑器</value>
+  </data>
+  <data name="DataAccessUIStringId.MasterDetailEditorInvalidColumnNameMessage" xml:space="preserve">
+    <value>找不到指定的列："{0}"。请指定现有的列名称。</value>
+  </data>
+  <data name="DataAccessUIStringId.FiltersView_TopAndSkipText" xml:space="preserve">
+    <value>记录从索引开始</value>
+  </data>
+  <data name="DataAccessUIStringId.JoinEditor_JoinType" xml:space="preserve">
+    <value>联接类型：</value>
+  </data>
+  <data name="DataAccessUIStringId.JoinEditorEmptyColumnText" xml:space="preserve">
+    <value>&lt; 选择列 &gt;</value>
+  </data>
+  <data name="DataAccessUIStringId.JoinEditorEmptyTableText" xml:space="preserve">
+    <value>&lt; 选择表 &gt;</value>
+  </data>
+  <data name="DataAccessUIStringId.DataPreviewForm_Title" xml:space="preserve">
+    <value>数据预览</value>
+  </data>
+  <data name="DataAccessUIStringId.DSTypeEF" xml:space="preserve">
+    <value>实体框架</value>
+  </data>
+  <data name="DataAccessUIStringId.DSTypeExcel" xml:space="preserve">
+    <value>Excel 文件</value>
+  </data>
+  <data name="DataAccessUIStringId.DSTypeObject" xml:space="preserve">
+    <value>对象绑定</value>
+  </data>
+  <data name="DataAccessUIStringId.DSTypeSql" xml:space="preserve">
+    <value>数据库</value>
+  </data>
+  <data name="DataAccessUIStringId.EFConnectionEditorTitle" xml:space="preserve">
+    <value>实体框架数据连接编辑器</value>
+  </data>
+  <data name="DataAccessUIStringId.EFDataMemberEditorTitle" xml:space="preserve">
+    <value>实体框架数据成员编辑器</value>
+  </data>
+  <data name="DataAccessUIStringId.EFDataSourceDesignerVerbEdit" xml:space="preserve">
+    <value>编辑...</value>
+  </data>
+  <data name="DataAccessUIStringId.EFDataSourceEditorTitle" xml:space="preserve">
+    <value>实体框架数据源编辑器</value>
+  </data>
+  <data name="DataAccessUIStringId.EFStoredProcsEditorTitle" xml:space="preserve">
+    <value>管理存储的过程</value>
+  </data>
+  <data name="DataAccessUIStringId.ExcelDataSourceDesignerVerbEdit" xml:space="preserve">
+    <value>编辑...</value>
+  </data>
+  <data name="DataAccessUIStringId.ExcelDataSourceDesignerVerbUpdateSchema" xml:space="preserve">
+    <value>重建结果架构</value>
+  </data>
+  <data name="DataAccessUIStringId.ExcelDataSourceEditorTitle" xml:space="preserve">
+    <value>Excel 数据源编辑器</value>
+  </data>
+  <data name="DataAccessUIStringId.ExcelDataSourceWizard_DefinedNameItem" xml:space="preserve">
+    <value>定义名称</value>
+  </data>
+  <data name="DataAccessUIStringId.ExcelDataSourceWizard_WorksheetItem" xml:space="preserve">
+    <value>工作表</value>
+  </data>
+  <data name="DataAccessUIStringId.ExpressionEditor_EmptyExpression" xml:space="preserve">
+    <value>表达式字符串不能为空。</value>
+  </data>
+  <data name="DataAccessUIStringId.ExpressionEditor_ExpressionContainsErrors" xml:space="preserve">
+    <value>表达式包含错误。</value>
+  </data>
+  <data name="DataAccessUIStringId.ExpressionEditor_InvalidProperty" xml:space="preserve">
+    <value>无效的属性:"{0}"。</value>
+  </data>
+  <data name="DataAccessUIStringId.ExpressionEditorViewTitle" xml:space="preserve">
+    <value>表达式编辑器</value>
+  </data>
+  <data name="DataAccessUIStringId.FilterStringEditorInvalidQuery" xml:space="preserve">
+    <value>错误︰ {0}
+更新连接设置，以便他们与数据库架构相匹配或放弃此查询。</value>
+  </data>
+  <data name="DataAccessUIStringId.Button_Browse" xml:space="preserve">
+    <value>浏览...</value>
+  </data>
+  <data name="DataAccessUIStringId.Button_Next" xml:space="preserve">
+    <value>下一步</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionEditorTitle" xml:space="preserve">
+    <value>连接编辑器</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionErrorFormDetailPattern" xml:space="preserve">
+    <value>连接名称: {0}错误消息: {1}</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_AdvantageServerType" xml:space="preserve">
+    <value>服务器类型:</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_AdvantageServerTypeInternet" xml:space="preserve">
+    <value>互联网</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_AdvantageServerTypeLocal" xml:space="preserve">
+    <value>本地</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_AdvantageServerTypeRemote" xml:space="preserve">
+    <value>远程</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_AuthenticationType" xml:space="preserve">
+    <value>身份验证类型:</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_AuthenticationType_BigQueryKeyFile" xml:space="preserve">
+    <value>密钥文件</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_AuthenticationType_MSSqlServer" xml:space="preserve">
+    <value>服务器身份验证</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_AuthenticationType_MSSqlWindows" xml:space="preserve">
+    <value>Windows 身份验证</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_ConnectionString" xml:space="preserve">
+    <value>连接字符串:</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_Database" xml:space="preserve">
+    <value>数据库:</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_DataSetID" xml:space="preserve">
+    <value>数据集 ID:</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_Hostname" xml:space="preserve">
+    <value>主机名:</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_KeyFileName" xml:space="preserve">
+    <value>密钥文件名称:</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_Port" xml:space="preserve">
+    <value>端口：</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_ProjectID" xml:space="preserve">
+    <value>项目 ID:</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_Provider" xml:space="preserve">
+    <value>提供者：</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_RefreshToken" xml:space="preserve">
+    <value>刷新令牌:</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_ServerName" xml:space="preserve">
+    <value>服务器名称：</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_ServerType" xml:space="preserve">
+    <value>服务器类型:</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_ServerTypeEmbedded" xml:space="preserve">
+    <value>嵌入式</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_ServerTypeServer" xml:space="preserve">
+    <value>服务器</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_ServiceAccountEmail" xml:space="preserve">
+    <value>服务帐户的电子邮件:</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_UserName" xml:space="preserve">
+    <value>用户名：</value>
+  </data>
+  <data name="DataAccessUIStringId.CustomAssemblyWarning" xml:space="preserve">
+    <value>您将要加载第三方库:"{0}"。
+
+在你开始之前，请考虑由此产生的安全风险，并确保此库从受信任的来源提供。</value>
+  </data>
+  <data name="DataAccessUIStringId.DataConnectionParametersDialog" xml:space="preserve">
+    <value>连接错误</value>
+  </data>
+  <data name="DataAccessUIStringId.Button_EditRelations" xml:space="preserve">
+    <value>与管理关系......</value>
+  </data>
+  <data name="DataAccessUIStringId.Button_Finish" xml:space="preserve">
+    <value>及后加工</value>
+  </data>
+  <data name="DataAccessUIStringId.Button_Preview" xml:space="preserve">
+    <value>及预览...</value>
+  </data>
+  <data name="DataAccessUIStringId.Button_Previous" xml:space="preserve">
+    <value>与以前</value>
+  </data>
+  <data name="DataAccessUIStringId.Button_Add" xml:space="preserve">
+    <value>添加(&amp;A)</value>
+  </data>
+  <data name="DataAccessUIStringId.ExcelDataSourceWizard_Title" xml:space="preserve">
+    <value>表格</value>
+  </data>
+  <data name="DataAccessUIStringId.SortingTypeDescending" xml:space="preserve">
+    <value>降序</value>
+  </data>
+  <data name="DataAccessUIStringId.SortingTypeAscending" xml:space="preserve">
+    <value>升序</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilder_SortDescending" xml:space="preserve">
+    <value>降序排列</value>
+  </data>
+  <data name="DataAccessUIStringId.ParametersColumn_Type" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilder_SortAscending" xml:space="preserve">
+    <value>升序排列</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseFileOptions_Options" xml:space="preserve">
+    <value>选项</value>
+  </data>
+  <data name="DataAccessUIStringId.ParametersColumn_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="DataAccessUIStringId.MessageBoxWarningTitle" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="DataAccessUIStringId.Button_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="DataAccessUIStringId.JoinEditorGreaterOperator" xml:space="preserve">
+    <value>大于</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilder_Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="DataAccessUIStringId.JoinEditorGreaterOrEqualOperator" xml:space="preserve">
+    <value>大于等于</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilder_Rename" xml:space="preserve">
+    <value>重命名</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_Password" xml:space="preserve">
+    <value>密码：</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderTable" xml:space="preserve">
+    <value>表格</value>
+  </data>
+  <data name="DataAccessUIStringId.Button_Remove" xml:space="preserve">
+    <value>移除(&amp;R)</value>
+  </data>
+  <data name="DataAccessUIStringId.Button_Close" xml:space="preserve">
+    <value>关闭(&amp;C)</value>
+  </data>
+  <data name="DataAccessUIStringId.Button_OK" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="DataAccessUIStringId.ParametersColumn_Value" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="DataAccessUIStringId.ExcelDataSourceWizard_TableItem" xml:space="preserve">
+    <value>表格</value>
+  </data>
+  <data name="DataAccessUIStringId.MessageBoxErrorTitle" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="DataAccessUIStringId.ParametersColumn_Expression" xml:space="preserve">
+    <value>表达式</value>
+  </data>
+  <data name="DataAccessUIStringId.JoinEditorLessOperator" xml:space="preserve">
+    <value>小于</value>
+  </data>
+  <data name="DataAccessUIStringId.JoinEditorLessOrEqualOperator" xml:space="preserve">
+    <value>小于等于</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderColumn" xml:space="preserve">
+    <value>列</value>
+  </data>
+</root>

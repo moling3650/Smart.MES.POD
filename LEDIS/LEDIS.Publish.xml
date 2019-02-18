@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="D:\LEMES_DIS" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="YXTSERVER" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="True" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="配置文件1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="bin/Newtonsoft.Json.dll" publishTime="11/23/2016 09:24:53" />
+    <file relUrl="bin/DataBase.dll" publishTime="11/23/2016 09:24:51" />
+    <file relUrl="bin/LEDAO.dll" publishTime="10/11/2017 17:36:45" />
+    <file relUrl="bin/LEDIS.dll" publishTime="10/12/2017 10:03:49" />
+    <file relUrl="bin/LEDAO.pdb" publishTime="10/11/2017 17:36:45" />
+    <file relUrl="bin/LEDIS.pdb" publishTime="10/12/2017 10:03:49" />
+    <file relUrl="Web.config" publishTime="10/12/2017 11:32:18" />
+    <file relUrl="LEService.svc" publishTime="11/23/2016 09:24:52" />
+    <file relUrl="bin/ILE.dll" publishTime="10/11/2017 17:36:43" />
+    <file relUrl="bin/ILE.pdb" publishTime="10/11/2017 17:36:42" />
+  </publishProfile>
+</publishData>

@@ -1,0 +1,1068 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DashboardWinStringId.CommandFormatRuleContains" xml:space="preserve">
+    <value>包含的文本</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleDateOccurring" xml:space="preserve">
+    <value>发生日期</value>
+  </data>
+  <data name="DashboardWinStringId.YesterdayCheckEditCaption" xml:space="preserve">
+    <value>昨天</value>
+  </data>
+  <data name="DashboardWinStringId.PeriodThisMonth" xml:space="preserve">
+    <value>这个月</value>
+  </data>
+  <data name="DashboardWinStringId.ThisMonthCheckEditCaption" xml:space="preserve">
+    <value>这个月</value>
+  </data>
+  <data name="DashboardWinStringId.AddDashboardParameter" xml:space="preserve">
+    <value>添加仪表板参数</value>
+  </data>
+  <data name="DashboardWinStringId.AddGridColumnTotalBarItemCaption" xml:space="preserve">
+    <value>添加汇总</value>
+  </data>
+  <data name="DashboardWinStringId.AutomaticUpdatesCaption" xml:space="preserve">
+    <value>自动更新</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatYearFormatDefaultCaption" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="DashboardWinStringId.BarDashboardCaption" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupGridStyleCaption" xml:space="preserve">
+    <value>样式</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDayOfWeekFormatDefaultCaption" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="DashboardWinStringId.CommandClearDataSourceFilterCaption" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsArgumentCaption" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="DashboardWinStringId.TodayCheckEditCaption" xml:space="preserve">
+    <value>今天</value>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatUnitAutoCaption" xml:space="preserve">
+    <value>自动</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupPivotLayoutCaption" xml:space="preserve">
+    <value>布局</value>
+  </data>
+  <data name="DashboardWinStringId.CommandEditQueryFilterCaption" xml:space="preserve">
+    <value>筛选器</value>
+  </data>
+  <data name="DashboardWinStringId.CommandSetCurrencyCultureCaption" xml:space="preserve">
+    <value>货币</value>
+  </data>
+  <data name="DashboardWinStringId.GridSortAscendingMenuItemDescription" xml:space="preserve">
+    <value>升序排列</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupMapShapeLabelsAttributeCaption" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionMinMaxValueCaption" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridMergeCellsCaption" xml:space="preserve">
+    <value>合并单元格</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceCustom" xml:space="preserve">
+    <value>自定义</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapTileLabelsArgumentCaption" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatFormatTypeCurrencyCaption" xml:space="preserve">
+    <value>货币</value>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatFormatTypeNumberCaption" xml:space="preserve">
+    <value>数字</value>
+  </data>
+  <data name="DashboardWinStringId.GridColumnTotalCountBarItemCaption" xml:space="preserve">
+    <value>计数</value>
+  </data>
+  <data name="DashboardWinStringId.CommandChartLegendPositionCaption" xml:space="preserve">
+    <value>图例位置</value>
+  </data>
+  <data name="DashboardWinStringId.CommandImageSizeModeZoomCaption" xml:space="preserve">
+    <value>缩放</value>
+  </data>
+  <data name="DashboardWinStringId.PivotCalculationAlongColumns" xml:space="preserve">
+    <value>列</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTargetDimensionsSeriesCaption" xml:space="preserve">
+    <value>系列</value>
+  </data>
+  <data name="DashboardWinStringId.EditorEmptyEnter" xml:space="preserve">
+    <value>&lt; 输入值 &gt;</value>
+  </data>
+  <data name="DashboardWinStringId.UndoText" xml:space="preserve">
+    <value>撤消</value>
+  </data>
+  <data name="DashboardWinStringId.ChartCalculationAlongSeries" xml:space="preserve">
+    <value>系列</value>
+  </data>
+  <data name="DashboardWinStringId.GridColumnTotalAvgBarItemCaption" xml:space="preserve">
+    <value>平均值</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsArgumentDescription" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceBlue" xml:space="preserve">
+    <value>蓝色</value>
+  </data>
+  <data name="DashboardWinStringId.CommandEditExcelDataSourceCaption" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsArgumentCaption" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertGroupCaption" xml:space="preserve">
+    <value>分组</value>
+  </data>
+  <data name="DashboardWinStringId.CommandChartSeriesTypeCaption" xml:space="preserve">
+    <value>序列类型</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceFontBold" xml:space="preserve">
+    <value>加粗</value>
+  </data>
+  <data name="DashboardWinStringId.ExactDateFormatQuarter" xml:space="preserve">
+    <value>季度</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeIntervalHour" xml:space="preserve">
+    <value>小时</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDeleteDataSourceCaption" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionPercentValueType" xml:space="preserve">
+    <value>百分比</value>
+  </data>
+  <data name="DashboardWinStringId.CardCalculationAlongCards" xml:space="preserve">
+    <value>卡片</value>
+  </data>
+  <data name="DashboardWinStringId.GridColumnTotalMaxBarItemCaption" xml:space="preserve">
+    <value>最大值</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsNoneCaption" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="DashboardWinStringId.CommandOpenDashboardCaption" xml:space="preserve">
+    <value>打开</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDashboardParametersCaption" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceYellow" xml:space="preserve">
+    <value>黄色</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapTileLabelsValueCaption" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupDesign" xml:space="preserve">
+    <value>设计</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDayOfWeekFormatAbbreviatedCaption" xml:space="preserve">
+    <value>简短</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsArgumentDescription" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsArgumentValueAndPercentCaption" xml:space="preserve">
+    <value>参数，值和百分比</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleAboveAverage" xml:space="preserve">
+    <value>高于平均值</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupFiltering" xml:space="preserve">
+    <value>过滤</value>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatFormatTypeAutoCaption" xml:space="preserve">
+    <value>自动</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTextBoxEditTextCaption" xml:space="preserve">
+    <value>编辑...</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsArgumentAndValueCaption" xml:space="preserve">
+    <value>参数和值</value>
+  </data>
+  <data name="DashboardWinStringId.ExactDateFormatYear" xml:space="preserve">
+    <value>年</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionBetweenAndCaption" xml:space="preserve">
+    <value>和</value>
+  </data>
+  <data name="DashboardWinStringId.RedoText" xml:space="preserve">
+    <value>重做</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsValueAndPercentCaption" xml:space="preserve">
+    <value>值和百分比</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDashboardTitleCaption" xml:space="preserve">
+    <value>标题</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsPercentDescription" xml:space="preserve">
+    <value>百分比</value>
+  </data>
+  <data name="DashboardWinStringId.CalculatedFieldTypeDateTime" xml:space="preserve">
+    <value>日期时间型</value>
+  </data>
+  <data name="DashboardWinStringId.CustomPeriod" xml:space="preserve">
+    <value>自定义</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageRangeFilterStyleCaption" xml:space="preserve">
+    <value>样式</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapTileLabelsNoneCaption" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="DashboardWinStringId.GridClearSortingMenuItemCaption" xml:space="preserve">
+    <value>清除排序</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupRangeFilterSeriesTypeCaption" xml:space="preserve">
+    <value>序列类型</value>
+  </data>
+  <data name="DashboardWinStringId.CommandSaveDashboardCaption" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="DashboardWinStringId.SparklineIndicationModeBar" xml:space="preserve">
+    <value>柱状图</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsArgumentAndValueDescription" xml:space="preserve">
+    <value>参数和值</value>
+  </data>
+  <data name="DashboardWinStringId.CalculationTypeNone" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="DashboardWinStringId.DashboardDesignerDefaultDashboardName" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToChartCaption" xml:space="preserve">
+    <value>图表</value>
+  </data>
+  <data name="DashboardWinStringId.DeltaThresholdTypePercent" xml:space="preserve">
+    <value>百分比</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDeleteGroupCaption" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleBelowAverage" xml:space="preserve">
+    <value>低于平均值</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatYearFormatFullCaption" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDateTimeFormatDefaultCaption" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatUnitOnesCaption" xml:space="preserve">
+    <value>部分</value>
+  </data>
+  <data name="DashboardWinStringId.DataSourceDataMember" xml:space="preserve">
+    <value>数据成员</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageLayoutAndStyleCaption" xml:space="preserve">
+    <value>设计</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupMapShapefileCaption" xml:space="preserve">
+    <value>打开</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAutomaticValueType" xml:space="preserve">
+    <value>自动</value>
+  </data>
+  <data name="DashboardWinStringId.WeightedLegendGalleryGroupCaption" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPivotShowRowGrandTotalsCaption" xml:space="preserve">
+    <value>显示行总计</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatYearFormatAbbreviatedCaption" xml:space="preserve">
+    <value>简短</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeIntervalYear" xml:space="preserve">
+    <value>年</value>
+  </data>
+  <data name="DashboardWinStringId.CalculatedFieldTypeLong" xml:space="preserve">
+    <value>整数</value>
+  </data>
+  <data name="DashboardWinStringId.RankOrderAscending" xml:space="preserve">
+    <value>升序</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsValueAndPercentCaption" xml:space="preserve">
+    <value>值和百分比</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupGridCellsCaption" xml:space="preserve">
+    <value>单元格</value>
+  </data>
+  <data name="DashboardWinStringId.MessageBoxErrorTitle" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionNumberValueType" xml:space="preserve">
+    <value>数字</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertRangeFilterCaption" xml:space="preserve">
+    <value>范围过滤器</value>
+  </data>
+  <data name="DashboardWinStringId.CommandEditQueryCaption" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToGaugeCaption" xml:space="preserve">
+    <value>仪表</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsArgumentAndValueCaption" xml:space="preserve">
+    <value>参数和值</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsNoneCaption" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapGroupLabelsCaption" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="DashboardWinStringId.CommandComboBoxCheckedTypeCaption" xml:space="preserve">
+    <value>选中</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertPiesCaption" xml:space="preserve">
+    <value>饼图</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupInsertCaption" xml:space="preserve">
+    <value>插入</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsArgumentAndPercentCaption" xml:space="preserve">
+    <value>参数和百分比</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsArgumentValueAndPercentCaption" xml:space="preserve">
+    <value>参数，值和百分比</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceOrange" xml:space="preserve">
+    <value>橙色</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapGroupLabelsArgumentCaption" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="DashboardWinStringId.DifferenceCalculationTargetNext" xml:space="preserve">
+    <value>下一个</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleValue" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatMonthFormatAbbreviatedCaption" xml:space="preserve">
+    <value>简短</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTargetDimensionsArgumentsCaption" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupGridLayoutCaption" xml:space="preserve">
+    <value>布局</value>
+  </data>
+  <data name="DashboardWinStringId.FormatRuleStyleAppearance" xml:space="preserve">
+    <value>外观</value>
+  </data>
+  <data name="DashboardWinStringId.CommandEditObjectDataSourceCaption" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupTextBoxEditingCaption" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceFontItalic" xml:space="preserve">
+    <value>斜体</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapLegendPositionCaption" xml:space="preserve">
+    <value>图例位置</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceFontUnderline" xml:space="preserve">
+    <value>下划线</value>
+  </data>
+  <data name="DashboardWinStringId.DesignerActionMethodCreateRibbonItem" xml:space="preserve">
+    <value>创建Ribbon</value>
+  </data>
+  <data name="DashboardWinStringId.SparklineIndicationModeArea" xml:space="preserve">
+    <value>区域</value>
+  </data>
+  <data name="DashboardWinStringId.ExactDateFormatDay" xml:space="preserve">
+    <value>天</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatMonthFormatDefaultCaption" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="DashboardWinStringId.CommandScatterChartLegendPositionCaption" xml:space="preserve">
+    <value>图例位置</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupChartLegendPositionCaption" xml:space="preserve">
+    <value>图例</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageDataCaption" xml:space="preserve">
+    <value>数据</value>
+  </data>
+  <data name="DashboardWinStringId.RemoveGridColumnTotalBarItemCaption" xml:space="preserve">
+    <value>移除</value>
+  </data>
+  <data name="DashboardWinStringId.CheckedDataFieldsBrowserSelectAll" xml:space="preserve">
+    <value>（选择所有）</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatQuarterFormatDefaultCaption" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="DashboardWinStringId.CommandRangeFilterSeriesTypeCaption" xml:space="preserve">
+    <value>序列类型</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleBetween" xml:space="preserve">
+    <value>之间</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertGaugesCaption" xml:space="preserve">
+    <value>仪表</value>
+  </data>
+  <data name="DashboardWinStringId.ExactDateFormatSecond" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToRangeFilterCaption" xml:space="preserve">
+    <value>范围过滤器</value>
+  </data>
+  <data name="DashboardWinStringId.RangeFilterCalculationAlongSeries" xml:space="preserve">
+    <value>系列</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatMonthFormatFullCaption" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsPercentCaption" xml:space="preserve">
+    <value>百分比</value>
+  </data>
+  <data name="DashboardWinStringId.FileFilterAll" xml:space="preserve">
+    <value>所有文件</value>
+  </data>
+  <data name="DashboardWinStringId.CommandRedoCaption" xml:space="preserve">
+    <value>重做</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDeleteItemCaption" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="DashboardWinStringId.CommandNewDashboardCaption" xml:space="preserve">
+    <value>新建</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeIntervalMonth" xml:space="preserve">
+    <value>月</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupImageOpenCaption" xml:space="preserve">
+    <value>打开</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupScatterChartLabelsCaption" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="DashboardWinStringId.CommandEditEFDataSourceCaption" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsValueCaption" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="DashboardWinStringId.UpdateDataCaption" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupDataSourceCaption" xml:space="preserve">
+    <value>数据源</value>
+  </data>
+  <data name="DashboardWinStringId.CommandWeightedLegendNoneTypeCaption" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="DashboardWinStringId.CommandNoneCalculation" xml:space="preserve">
+    <value>(无)</value>
+  </data>
+  <data name="DashboardWinStringId.RangeFilterCalculationAlongArgument" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageTextBoxFormatCaption" xml:space="preserve">
+    <value>格式</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapTileLabelsCaption" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceNone" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupImageSizeModeCaption" xml:space="preserve">
+    <value>尺寸模式</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertImageCaption" xml:space="preserve">
+    <value>图像</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatQuarterFormatFullCaption" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapGroupTooltipsArgumentCaption" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="DashboardWinStringId.GridColumnTotalSumBarItemCaption" xml:space="preserve">
+    <value>总和</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsLegendPositionNoneCaption" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapGroupLabelsNoneCaption" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertCardsCaption" xml:space="preserve">
+    <value>卡片</value>
+  </data>
+  <data name="DashboardWinStringId.BarDataSourceName" xml:space="preserve">
+    <value>数据源</value>
+  </data>
+  <data name="DashboardWinStringId.CommandClearFilterCaption" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleExpression" xml:space="preserve">
+    <value>表达式</value>
+  </data>
+  <data name="DashboardWinStringId.RankOrderDescending" xml:space="preserve">
+    <value>降序</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageImageOptionsCaption" xml:space="preserve">
+    <value>选项</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupFilteringCaption" xml:space="preserve">
+    <value>过滤</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeIntervalDay" xml:space="preserve">
+    <value>天</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapGroupLabelsValueCaption" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsLegendPositionCaption" xml:space="preserve">
+    <value>图例位置</value>
+  </data>
+  <data name="DashboardWinStringId.GridSortAscendingMenuItemCaption" xml:space="preserve">
+    <value>升序排列</value>
+  </data>
+  <data name="DashboardWinStringId.DashboardFormatConditionPercentValue" xml:space="preserve">
+    <value>取模</value>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatUnitMillionsCaption" xml:space="preserve">
+    <value>数以百万计</value>
+  </data>
+  <data name="DashboardWinStringId.GridClearSortingMenuItemDescription" xml:space="preserve">
+    <value>清除排序</value>
+  </data>
+  <data name="DashboardWinStringId.EditorCustomValue" xml:space="preserve">
+    <value>(自定义)</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsLegendPositionTopCaption" xml:space="preserve">
+    <value>顶部</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageDashboardCaption" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapTileTooltipsArgumentCaption" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceRed" xml:space="preserve">
+    <value>红色</value>
+  </data>
+  <data name="DashboardWinStringId.MessageColorTableAlreadyExistsCaption" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleAboveBelowAverage" xml:space="preserve">
+    <value>平均值</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToPieCaption" xml:space="preserve">
+    <value>饼图</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsLegendPositionTopDescription" xml:space="preserve">
+    <value>顶部</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertTextBoxCaption" xml:space="preserve">
+    <value>文本框</value>
+  </data>
+  <data name="DashboardWinStringId.ExactDateFormatMonth" xml:space="preserve">
+    <value>月</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieStylePieCaption" xml:space="preserve">
+    <value>饼状图</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeIntervalSecond" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="DashboardWinStringId.PeriodToday" xml:space="preserve">
+    <value>今天</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleGreaterThan" xml:space="preserve">
+    <value>大于</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDayOfWeekFormatNumericCaption" xml:space="preserve">
+    <value>数字</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsPercentDescription" xml:space="preserve">
+    <value>百分比</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupGaugeLabelsCaption" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="DashboardWinStringId.MapGalleryVerticalGroupCaption" xml:space="preserve">
+    <value>垂直</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupPieLabelsCaption" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="DashboardWinStringId.FormatRuleRangeReverseStyles" xml:space="preserve">
+    <value>反向</value>
+  </data>
+  <data name="DashboardWinStringId.CommandEditDataSourceCaption" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="DashboardWinStringId.FormatRuleRangeAdd" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapGroupTooltipsValueCaption" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsValueAndPercentDescription" xml:space="preserve">
+    <value>值和百分比</value>
+  </data>
+  <data name="DashboardWinStringId.BarViewName" xml:space="preserve">
+    <value>视图</value>
+  </data>
+  <data name="DashboardWinStringId.CommandImageAlignmentCaption" xml:space="preserve">
+    <value>对齐</value>
+  </data>
+  <data name="DashboardWinStringId.MessageBoxWarningTitle" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeIntervalQuarter" xml:space="preserve">
+    <value>季度</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatMonthFormatNumericCaption" xml:space="preserve">
+    <value>数字</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsArgumentAndValueDescription" xml:space="preserve">
+    <value>参数和值</value>
+  </data>
+  <data name="DashboardWinStringId.CalculatedFieldTypeDecimal" xml:space="preserve">
+    <value>十进制</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDimensionSortDescending" xml:space="preserve">
+    <value>降序排列</value>
+  </data>
+  <data name="DashboardWinStringId.PropertyGridNoDataMember" xml:space="preserve">
+    <value>(无)</value>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatFormatTypeGeneralCaption" xml:space="preserve">
+    <value>常规</value>
+  </data>
+  <data name="DashboardWinStringId.DataFieldBrowserCalculatedFieldTypeMenuItem" xml:space="preserve">
+    <value>字段类型</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleBar" xml:space="preserve">
+    <value>柱状图</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupTreeViewLayoutCaption" xml:space="preserve">
+    <value>布局</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleRange" xml:space="preserve">
+    <value>范围</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupMapNavigationCaption" xml:space="preserve">
+    <value>导航</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsLegendPositionLeftDescription" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="DashboardWinStringId.GridSortDescendingMenuItemCaption" xml:space="preserve">
+    <value>降序排列</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsValueAndPercentDescription" xml:space="preserve">
+    <value>值和百分比</value>
+  </data>
+  <data name="DashboardWinStringId.FormatRuleRangeDelete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="DashboardWinStringId.CommandImageSizeMode" xml:space="preserve">
+    <value>尺寸模式</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupImageAlignmentCaption" xml:space="preserve">
+    <value>对齐</value>
+  </data>
+  <data name="DashboardWinStringId.DesignerActionListCreateBarsTransaction" xml:space="preserve">
+    <value>创建Bars</value>
+  </data>
+  <data name="DashboardWinStringId.CommandChartRotateCaption" xml:space="preserve">
+    <value>旋转</value>
+  </data>
+  <data name="DashboardWinStringId.MessageColorSchemeValueAlreadyExistsCaption" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="DashboardWinStringId.MapGalleryHorizontalGroupCaption" xml:space="preserve">
+    <value>水平</value>
+  </data>
+  <data name="DashboardWinStringId.CommandSaveAsDashboardCaption" xml:space="preserve">
+    <value>另存为</value>
+  </data>
+  <data name="DashboardWinStringId.PropertyGridNoDashboardItemGroup" xml:space="preserve">
+    <value>(无)</value>
+  </data>
+  <data name="DashboardWinStringId.CalculationTypeExpression" xml:space="preserve">
+    <value>表达式</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTextBoxEditTextRibbonCaption" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsValueDescription" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="DashboardWinStringId.BarHomeName" xml:space="preserve">
+    <value>主页</value>
+  </data>
+  <data name="DashboardWinStringId.PropertyGridNoDataSource" xml:space="preserve">
+    <value>(无)</value>
+  </data>
+  <data name="DashboardWinStringId.DesignerActionListCreateRibbonTransaction" xml:space="preserve">
+    <value>创建Ribbon</value>
+  </data>
+  <data name="DashboardWinStringId.GridSortDescendingMenuItemDescription" xml:space="preserve">
+    <value>降序排列</value>
+  </data>
+  <data name="DashboardWinStringId.CommandEditDashboardParametersCaption" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="DashboardWinStringId.CommandRenameQueryCaption" xml:space="preserve">
+    <value>重命名</value>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatUnitThousandsCaption" xml:space="preserve">
+    <value>千</value>
+  </data>
+  <data name="DashboardWinStringId.ChartCalculationAlongArguments" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsLegendPositionLeftCaption" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="DashboardWinStringId.CalculatedFieldTypeString" xml:space="preserve">
+    <value>字符串</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupGroupsCaption" xml:space="preserve">
+    <value>分组</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleLessThan" xml:space="preserve">
+    <value>小于</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsNoneDescription" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="DashboardWinStringId.DataFieldBrowserRemoveCalculatedFieldMenuItem" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="DashboardWinStringId.CommandImageSizeModeStretchCaption" xml:space="preserve">
+    <value>拉伸</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridManualGridColumnWidthModeCaption" xml:space="preserve">
+    <value>手册</value>
+  </data>
+  <data name="DashboardWinStringId.CommandSelectOtherValues" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="DashboardWinStringId.CommandListBoxCheckedTypeCaption" xml:space="preserve">
+    <value>选中</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapGroupTooltipsNoneCaption" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDimensionSortAscending" xml:space="preserve">
+    <value>升序排列</value>
+  </data>
+  <data name="DashboardWinStringId.MenuRemoveColor" xml:space="preserve">
+    <value>移除</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridWordWrapCaption" xml:space="preserve">
+    <value>字环绕</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsLegendPositionBottomDescription" xml:space="preserve">
+    <value>底部</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsArgumentValueAndPercentDescription" xml:space="preserve">
+    <value>参数，值和百分比</value>
+  </data>
+  <data name="DashboardWinStringId.DesignerActionMethodCreateBarsItem" xml:space="preserve">
+    <value>创建Bars</value>
+  </data>
+  <data name="DashboardWinStringId.HoursLabelCaption" xml:space="preserve">
+    <value>小时</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupFileCaption" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToTextBoxCaption" xml:space="preserve">
+    <value>文本框</value>
+  </data>
+  <data name="DashboardWinStringId.PieCalculationAlongArguments" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupDashboardCaption" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceGreen" xml:space="preserve">
+    <value>绿色</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDeleteQueryCaption" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="DashboardWinStringId.MenuDateTimeFormatFormat" xml:space="preserve">
+    <value>格式</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatQuarterFormatNumericCaption" xml:space="preserve">
+    <value>数字</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupView" xml:space="preserve">
+    <value>视图</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupDataSource" xml:space="preserve">
+    <value>数据源</value>
+  </data>
+  <data name="DashboardWinStringId.MenuResetColor" xml:space="preserve">
+    <value>重置</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsLegendPositionRightCaption" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="DashboardWinStringId.NextNPeriodsCheckEditCaption" xml:space="preserve">
+    <value>下一个</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsArgumentAndPercentCaption" xml:space="preserve">
+    <value>参数和百分比</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertChartCaption" xml:space="preserve">
+    <value>图表</value>
+  </data>
+  <data name="DashboardWinStringId.PieCalculationAlongSeries" xml:space="preserve">
+    <value>系列</value>
+  </data>
+  <data name="DashboardWinStringId.ExactDateFormatHour" xml:space="preserve">
+    <value>小时</value>
+  </data>
+  <data name="DashboardWinStringId.GaugeCalculationAlongGauges" xml:space="preserve">
+    <value>仪表</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToCardCaption" xml:space="preserve">
+    <value>卡片</value>
+  </data>
+  <data name="DashboardWinStringId.CommandExportTo" xml:space="preserve">
+    <value>导出到</value>
+  </data>
+  <data name="DashboardWinStringId.DifferenceCalculationTargetPrevious" xml:space="preserve">
+    <value>上一页</value>
+  </data>
+  <data name="DashboardWinStringId.CommandRenameDataSourceCaption" xml:space="preserve">
+    <value>重命名</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeIntervalAll" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleEqualTo" xml:space="preserve">
+    <value>等于</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapTileTooltipsValueCaption" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupTreemapLayoutCaption" xml:space="preserve">
+    <value>布局</value>
+  </data>
+  <data name="DashboardWinStringId.DataFieldBrowserRenameCalculatedFieldMenuItem" xml:space="preserve">
+    <value>重命名</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupPieStyleCaption" xml:space="preserve">
+    <value>样式</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsValueCaption" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsLegendPositionRightDescription" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="DashboardWinStringId.GridColumnTotalAutoBarItemCaption" xml:space="preserve">
+    <value>自动</value>
+  </data>
+  <data name="DashboardWinStringId.PrintPreviewOptionsFormCaption" xml:space="preserve">
+    <value>选项</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsLegendPositionBottomCaption" xml:space="preserve">
+    <value>底部</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsArgumentValueAndPercentDescription" xml:space="preserve">
+    <value>参数，值和百分比</value>
+  </data>
+  <data name="DashboardWinStringId.CommandEditDataSourceFilterCaption" xml:space="preserve">
+    <value>筛选器</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsLegendPositionNoneDescription" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="DashboardWinStringId.CurrencyInvariantRegion" xml:space="preserve">
+    <value>未定义</value>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatFormatTypePercentCaption" xml:space="preserve">
+    <value>百分比</value>
+  </data>
+  <data name="DashboardWinStringId.FormatRuleApplyTo" xml:space="preserve">
+    <value>应用</value>
+  </data>
+  <data name="DashboardWinStringId.CommandUndoCaption" xml:space="preserve">
+    <value>撤消</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDateFormatDefaultCaption" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsArgumentAndPercentDescription" xml:space="preserve">
+    <value>参数和百分比</value>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatUnitBillionsCaption" xml:space="preserve">
+    <value>数十亿</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsArgumentAndPercentDescription" xml:space="preserve">
+    <value>参数和百分比</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsValueDescription" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTargetDimensionsPointsCaption" xml:space="preserve">
+    <value>点</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsPercentCaption" xml:space="preserve">
+    <value>百分比</value>
+  </data>
+  <data name="DashboardWinStringId.SparklineIndicationModeLine" xml:space="preserve">
+    <value>线</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapTileTooltipsNoneCaption" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDayOfWeekFormatFullCaption" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="DashboardWinStringId.GridColumnTotalMinBarItemCaption" xml:space="preserve">
+    <value>最小值</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupChartSeriesTypeCaption" xml:space="preserve">
+    <value>序列类型</value>
+  </data>
+  <data name="DashboardWinStringId.CommandUpdateDataExtractCaption" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupGaugeStyleCaption" xml:space="preserve">
+    <value>样式</value>
+  </data>
+</root>

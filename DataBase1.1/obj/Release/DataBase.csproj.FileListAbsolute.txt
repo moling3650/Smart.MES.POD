@@ -1,0 +1,6 @@
+D:\work\Project\阳普\smart.mes\LEMES_POD\DataBase1.1\bin\Release\DataBase.dll.config
+D:\work\Project\阳普\smart.mes\LEMES_POD\DataBase1.1\bin\Release\DataBase.dll
+D:\work\Project\阳普\smart.mes\LEMES_POD\DataBase1.1\bin\Release\DataBase.pdb
+D:\work\Project\阳普\smart.mes\LEMES_POD\DataBase1.1\obj\Release\DataBase.csprojResolveAssemblyReference.cache
+D:\work\Project\阳普\smart.mes\LEMES_POD\DataBase1.1\obj\Release\DataBase.dll
+D:\work\Project\阳普\smart.mes\LEMES_POD\DataBase1.1\obj\Release\DataBase.pdb

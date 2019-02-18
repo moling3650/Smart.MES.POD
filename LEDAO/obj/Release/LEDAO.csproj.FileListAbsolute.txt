@@ -1,0 +1,10 @@
+D:\work\Project\阳普\smart.mes\LEMES_POD\LEDAO\bin\Release\LEDAO.dll.config
+D:\work\Project\阳普\smart.mes\LEMES_POD\LEDAO\bin\Release\LEDAO.dll
+D:\work\Project\阳普\smart.mes\LEMES_POD\LEDAO\bin\Release\LEDAO.pdb
+D:\work\Project\阳普\smart.mes\LEMES_POD\LEDAO\bin\Release\EntityFramework.dll
+D:\work\Project\阳普\smart.mes\LEMES_POD\LEDAO\bin\Release\EntityFramework.SqlServer.dll
+D:\work\Project\阳普\smart.mes\LEMES_POD\LEDAO\bin\Release\EntityFramework.xml
+D:\work\Project\阳普\smart.mes\LEMES_POD\LEDAO\bin\Release\EntityFramework.SqlServer.xml
+D:\work\Project\阳普\smart.mes\LEMES_POD\LEDAO\obj\Release\LEDAO.csprojResolveAssemblyReference.cache
+D:\work\Project\阳普\smart.mes\LEMES_POD\LEDAO\obj\Release\LEDAO.dll
+D:\work\Project\阳普\smart.mes\LEMES_POD\LEDAO\obj\Release\LEDAO.pdb

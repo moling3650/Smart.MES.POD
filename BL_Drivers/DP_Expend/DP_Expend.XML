@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DP_Expend</name>
+    </assembly>
+    <members>
+        <member name="M:DP_Expend.SPO.DoWork(ILE.IJob,System.String)">
+            <summary>
+            手动耗料驱动
+            </summary>
+            <param name="jobModel"></param>
+            <param name="val"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DP_Expend.SPO.DoWork(ILE.IJob)">
+            <summary>
+            自动耗料驱动
+            </summary>
+            <param name="jobModel"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,4 @@
+D:\work\Project\阳普\smart.mes\LEMES_POD\ILE\bin\Release\ILE.dll
+D:\work\Project\阳普\smart.mes\LEMES_POD\ILE\bin\Release\ILE.pdb
+D:\work\Project\阳普\smart.mes\LEMES_POD\ILE\obj\Release\ILE.dll
+D:\work\Project\阳普\smart.mes\LEMES_POD\ILE\obj\Release\ILE.pdb

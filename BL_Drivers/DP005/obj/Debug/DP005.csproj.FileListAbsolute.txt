@@ -1,0 +1,17 @@
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP005\bin\DP005.dll.config
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP005\bin\DP005.dll
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP005\bin\DP005.pdb
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP005\bin\ILE.dll
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP005\bin\LEDAO.dll
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP005\bin\Newtonsoft.Json.dll
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP005\bin\ILE.pdb
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP005\bin\LEDAO.pdb
+D:\work\Project\阳普\smart.mes\LEMES_POD\LEMES_POD\bin\Debug\DriveList\DP005.dll.config
+D:\work\Project\阳普\smart.mes\LEMES_POD\LEMES_POD\bin\Debug\DriveList\DP005.dll
+D:\work\Project\阳普\smart.mes\LEMES_POD\LEMES_POD\bin\Debug\DriveList\DP005.pdb
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP005\obj\Debug\DP005.csprojResolveAssemblyReference.cache
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP005\obj\Debug\DP005.DispatchForm.resources
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP005\obj\Debug\DP005.Properties.Resources.resources
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP005\obj\Debug\DP005.csproj.GenerateResource.Cache
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP005\obj\Debug\DP005.dll
+D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP005\obj\Debug\DP005.pdb

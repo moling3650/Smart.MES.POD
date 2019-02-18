@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[ILETest.csproj]
+SCC_Aux_Path = "\\Yxtserver\lemes"
+SCC_Project_Name = "$/LEMES_POD.root/LEMES_POD/ILETest", HVFAAAAA
+
+[Test.csproj]
+SCC_Aux_Path = "\\X-Man\LeMesVSS"
+SCC_Project_Name = "$/LeMes/LEMES_POD.root/LEMES_POD/ILETest", FHAAAAAA

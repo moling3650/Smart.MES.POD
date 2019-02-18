@@ -1,0 +1,9 @@
+D:\work\Project\阳普\smart.mes\LEMES_POD\TK_Drivers\TP001\bin\Release\TP001.dll.config
+D:\work\Project\阳普\smart.mes\LEMES_POD\TK_Drivers\TP001\bin\Release\TP001.dll
+D:\work\Project\阳普\smart.mes\LEMES_POD\TK_Drivers\TP001\bin\Release\TP001.pdb
+D:\work\Project\阳普\smart.mes\LEMES_POD\TK_Drivers\TP001\bin\Release\ILE.dll
+D:\work\Project\阳普\smart.mes\LEMES_POD\TK_Drivers\TP001\bin\Release\LEDAO.dll
+D:\work\Project\阳普\smart.mes\LEMES_POD\TK_Drivers\TP001\bin\Release\ILE.pdb
+D:\work\Project\阳普\smart.mes\LEMES_POD\TK_Drivers\TP001\bin\Release\LEDAO.pdb
+D:\work\Project\阳普\smart.mes\LEMES_POD\TK_Drivers\TP001\obj\Release\TP001.dll
+D:\work\Project\阳普\smart.mes\LEMES_POD\TK_Drivers\TP001\obj\Release\TP001.pdb

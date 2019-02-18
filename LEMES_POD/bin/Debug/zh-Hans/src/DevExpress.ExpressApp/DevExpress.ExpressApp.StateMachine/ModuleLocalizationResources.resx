@@ -1,0 +1,3387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Non-calculated\ActionDesign\Actions\ChangeStateAction\Caption" xml:space="preserve">
+    <value>Change State</value>
+  </data>
+  <data name="ActionDesign\Actions\ChangeStateAction\ShortCaption" xml:space="preserve">
+    <value>Change State</value>
+  </data>
+  <data name="ActionDesign\Actions\ChangeStateAction\NullValuePrompt" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="ActionDesign\Actions\ChangeStateAction\ConfirmationMessage" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="ActionDesign\Actions\ChangeStateAction\ToolTip" xml:space="preserve">
+    <value>Change state of the current object</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Utils.MarkerObject\ObjectCaptionFormat" xml:space="preserve">
+    <value>{0:DisplayName}</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Utils.MarkerObject\Caption" xml:space="preserve">
+    <value>Marker Object</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Utils.MarkerObject\OwnMembers\DisplayName\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Utils.MarkerObject\OwnMembers\DisplayName\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Utils.MarkerObject\OwnMembers\DisplayName\Caption" xml:space="preserve">
+    <value>Display Name</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Utils.MarkerObject\OwnMembers\DisplayName\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Utils.MarkerObject\OwnMembers\DisplayName\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Utils.MarkerObject\OwnMembers\DisplayName\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Utils.MarkerObject\OwnMembers\DisplayName\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.StateMachineObjectBase\ObjectCaptionFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.StateMachineObjectBase\Caption" xml:space="preserve">
+    <value>State Machine Object Base</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.StateMachineObjectBase\OwnMembers\Oid\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.StateMachineObjectBase\OwnMembers\Oid\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.StateMachineObjectBase\OwnMembers\Oid\Caption" xml:space="preserve">
+    <value>Oid</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.StateMachineObjectBase\OwnMembers\Oid\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.StateMachineObjectBase\OwnMembers\Oid\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.StateMachineObjectBase\OwnMembers\Oid\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.StateMachineObjectBase\OwnMembers\Oid\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\ObjectCaptionFormat" xml:space="preserve">
+    <value>{0:Caption}</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\Caption" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\OwnMembers\Caption\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\OwnMembers\Caption\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\OwnMembers\Caption\Caption" xml:space="preserve">
+    <value>Caption</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\OwnMembers\Caption\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\OwnMembers\Caption\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\OwnMembers\Caption\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\OwnMembers\Caption\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\OwnMembers\StateMachine\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\OwnMembers\StateMachine\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\OwnMembers\StateMachine\Caption" xml:space="preserve">
+    <value>State Machine</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\OwnMembers\StateMachine\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\OwnMembers\StateMachine\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\OwnMembers\StateMachine\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\OwnMembers\StateMachine\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\OwnMembers\Marker\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\OwnMembers\Marker\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\OwnMembers\Marker\Caption" xml:space="preserve">
+    <value>Marker</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\OwnMembers\Marker\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\OwnMembers\Marker\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\OwnMembers\Marker\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\OwnMembers\Marker\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\OwnMembers\TargetObjectCriteria\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\OwnMembers\TargetObjectCriteria\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\OwnMembers\TargetObjectCriteria\Caption" xml:space="preserve">
+    <value>Target Object Criteria</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\OwnMembers\TargetObjectCriteria\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\OwnMembers\TargetObjectCriteria\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\OwnMembers\TargetObjectCriteria\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\OwnMembers\TargetObjectCriteria\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\OwnMembers\Transitions\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\OwnMembers\Transitions\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\OwnMembers\Transitions\Caption" xml:space="preserve">
+    <value>Transitions</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\OwnMembers\Transitions\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\OwnMembers\Transitions\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\OwnMembers\Transitions\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\OwnMembers\Transitions\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\OwnMembers\Appearance\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\OwnMembers\Appearance\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\OwnMembers\Appearance\Caption" xml:space="preserve">
+    <value>Appearance</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\OwnMembers\Appearance\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\OwnMembers\Appearance\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\OwnMembers\Appearance\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoState\OwnMembers\Appearance\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\ObjectCaptionFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\Caption" xml:space="preserve">
+    <value>Appearance</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\AppearanceItemType\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\AppearanceItemType\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\AppearanceItemType\Caption" xml:space="preserve">
+    <value>Appearance Item Type</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\AppearanceItemType\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\AppearanceItemType\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\AppearanceItemType\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\AppearanceItemType\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\Context\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\Context\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\Context\Caption" xml:space="preserve">
+    <value>Context</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\Context\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\Context\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\Context\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\Context\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\TargetItems\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\TargetItems\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\TargetItems\Caption" xml:space="preserve">
+    <value>Target Items</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\TargetItems\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\TargetItems\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\TargetItems\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\TargetItems\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\Priority\EditMask" xml:space="preserve">
+    <value>N0</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\Priority\DisplayFormat" xml:space="preserve">
+    <value>{0:N0}</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\Priority\Caption" xml:space="preserve">
+    <value>Priority</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\Priority\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\Priority\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\Priority\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\Priority\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\FontColor\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\FontColor\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\FontColor\Caption" xml:space="preserve">
+    <value>Font Color</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\FontColor\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\FontColor\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\FontColor\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\FontColor\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\BackColor\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\BackColor\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\BackColor\Caption" xml:space="preserve">
+    <value>Back Color</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\BackColor\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\BackColor\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\BackColor\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\BackColor\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\FontStyle\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\FontStyle\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\FontStyle\Caption" xml:space="preserve">
+    <value>Font Style</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\FontStyle\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\FontStyle\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\FontStyle\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\FontStyle\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\Enabled\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\Enabled\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\Enabled\Caption" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\Enabled\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\Enabled\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\Enabled\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\Enabled\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\Visibility\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\Visibility\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\Visibility\Caption" xml:space="preserve">
+    <value>Visibility</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\Visibility\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\Visibility\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\Visibility\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateAppearance\OwnMembers\Visibility\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\ObjectCaptionFormat" xml:space="preserve">
+    <value>{0:Name}</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\Caption" xml:space="preserve">
+    <value>State Machine</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\Name\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\Name\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\Name\Caption" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\Name\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\Name\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\Name\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\Name\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\Active\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\Active\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\Active\Caption" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\Active\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\Active\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\Active\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\Active\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\TargetObjectType\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\TargetObjectType\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\TargetObjectType\Caption" xml:space="preserve">
+    <value>Target Object Type</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\TargetObjectType\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\TargetObjectType\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\TargetObjectType\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\TargetObjectType\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\StatePropertyName\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\StatePropertyName\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\StatePropertyName\Caption" xml:space="preserve">
+    <value>State Property Name</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\StatePropertyName\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\StatePropertyName\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\StatePropertyName\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\StatePropertyName\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\StartState\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\StartState\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\StartState\Caption" xml:space="preserve">
+    <value>Start State</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\StartState\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\StartState\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\StartState\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\StartState\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\States\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\States\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\States\Caption" xml:space="preserve">
+    <value>States</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\States\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\States\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\States\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\States\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\ExpandActionsInDetailView\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\ExpandActionsInDetailView\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\ExpandActionsInDetailView\Caption" xml:space="preserve">
+    <value>Expand Actions In Detail View</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\ExpandActionsInDetailView\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\ExpandActionsInDetailView\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\ExpandActionsInDetailView\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoStateMachine\OwnMembers\ExpandActionsInDetailView\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoTransition\ObjectCaptionFormat" xml:space="preserve">
+    <value>{0:Caption}</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoTransition\Caption" xml:space="preserve">
+    <value>Transition</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoTransition\OwnMembers\Caption\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoTransition\OwnMembers\Caption\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoTransition\OwnMembers\Caption\Caption" xml:space="preserve">
+    <value>Caption</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoTransition\OwnMembers\Caption\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoTransition\OwnMembers\Caption\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoTransition\OwnMembers\Caption\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoTransition\OwnMembers\Caption\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoTransition\OwnMembers\SourceState\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoTransition\OwnMembers\SourceState\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoTransition\OwnMembers\SourceState\Caption" xml:space="preserve">
+    <value>Source State</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoTransition\OwnMembers\SourceState\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoTransition\OwnMembers\SourceState\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoTransition\OwnMembers\SourceState\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoTransition\OwnMembers\SourceState\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoTransition\OwnMembers\TargetState\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoTransition\OwnMembers\TargetState\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoTransition\OwnMembers\TargetState\Caption" xml:space="preserve">
+    <value>Target State</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoTransition\OwnMembers\TargetState\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoTransition\OwnMembers\TargetState\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoTransition\OwnMembers\TargetState\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoTransition\OwnMembers\TargetState\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoTransition\OwnMembers\Index\EditMask" xml:space="preserve">
+    <value>N0</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoTransition\OwnMembers\Index\DisplayFormat" xml:space="preserve">
+    <value>{0:N0}</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoTransition\OwnMembers\Index\Caption" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoTransition\OwnMembers\Index\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoTransition\OwnMembers\Index\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoTransition\OwnMembers\Index\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoTransition\OwnMembers\Index\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoTransition\OwnMembers\SaveAndCloseView\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoTransition\OwnMembers\SaveAndCloseView\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoTransition\OwnMembers\SaveAndCloseView\Caption" xml:space="preserve">
+    <value>Save And Close View</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoTransition\OwnMembers\SaveAndCloseView\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoTransition\OwnMembers\SaveAndCloseView\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoTransition\OwnMembers\SaveAndCloseView\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.StateMachine.Xpo.XpoTransition\OwnMembers\SaveAndCloseView\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.Utils.StringObject\ObjectCaptionFormat" xml:space="preserve">
+    <value>{0:Name}</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Utils.StringObject\Caption" xml:space="preserve">
+    <value>String Object</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.Utils.StringObject\OwnMembers\Name\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.Utils.StringObject\OwnMembers\Name\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Utils.StringObject\OwnMembers\Name\Caption" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.Utils.StringObject\OwnMembers\Name\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.Utils.StringObject\OwnMembers\Name\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Utils.StringObject\OwnMembers\Name\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Utils.StringObject\OwnMembers\Name\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.FontStyle\Value" xml:space="preserve">
+    <value>Font Style</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.FontStyle\Bold\Value" xml:space="preserve">
+    <value>Bold</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.FontStyle\Italic\Value" xml:space="preserve">
+    <value>Italic</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.FontStyle\Regular\Value" xml:space="preserve">
+    <value>Regular</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.FontStyle\Strikeout\Value" xml:space="preserve">
+    <value>Strikeout</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\System.Drawing.FontStyle\Underline\Value" xml:space="preserve">
+    <value>Underline</value>
+  </data>
+  <data name="Non-calculated\Localization\Namespaces\DevExpress.ExpressApp.StateMachine.Utils\Value" xml:space="preserve">
+    <value>Utils</value>
+  </data>
+  <data name="Non-calculated\Localization\Namespaces\DevExpress.ExpressApp.StateMachine.Xpo\Value" xml:space="preserve">
+    <value>Xpo</value>
+  </data>
+  <data name="Non-calculated\Localization\Namespaces\DevExpress.ExpressApp.Utils\Value" xml:space="preserve">
+    <value>Utils</value>
+  </data>
+  <data name="Non-calculated\Localization\Namespaces\DevExpress.Xpo\Value" xml:space="preserve">
+    <value>Xpo</value>
+  </data>
+  <data name="Non-calculated\Localization\StateMachine\Value" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\Localization\StateMachine\TransitionValidationMessage\Value" xml:space="preserve">
+    <value>To go to the '{StateCaption}' state, the '{TargetObject}' must satisfy the following criteria: {Criteria}</value>
+  </data>
+  <data name="NavigationItems\Items\State Machine\Caption" xml:space="preserve">
+    <value>State Machine</value>
+  </data>
+  <data name="Non-calculated\NavigationItems\Items\State Machine\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="NavigationItems\Items\State Machine\Items\XpoStateMachine_ListView\Caption" xml:space="preserve">
+    <value>State Machine</value>
+  </data>
+  <data name="Non-calculated\NavigationItems\Items\State Machine\Items\XpoStateMachine_ListView\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\Validation\Contexts\Delete\Caption" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Non-calculated\Validation\Contexts\Save\Caption" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Non-calculated\Validation\Rules\StateIsReferencedXpo\MessageTemplateMustBeReferenced" xml:space="preserve">
+    <value>If you want to delete this State, you must be sure it is not referenced in any Transition as TargetState.</value>
+  </data>
+  <data name="Non-calculated\Validation\Rules\StateIsReferencedXpo\FoundObjectMessagesSeparator" xml:space="preserve">
+    <value>, </value>
+  </data>
+  <data name="Non-calculated\Validation\Rules\StateIsReferencedXpo\FoundObjectMessageFormat" xml:space="preserve">
+    <value>{0:SourceState.Caption}</value>
+  </data>
+  <data name="Validation\Rules\StateIsReferencedXpo\MessageTemplateFoundObjects" xml:space="preserve">
+    <value>The following objects are found: </value>
+  </data>
+  <data name="Validation\Rules\StateIsReferencedXpo\MessageTemplateTargetDoesNotSatisfyCollectionCriteria" xml:space="preserve">
+    <value>The "{Id}" rule was not checked because the target is not an element of the "{TargetCollectionOwnerType}.{TargetCollectionPropertyName}" collection.</value>
+  </data>
+  <data name="Validation\Rules\StateIsReferencedXpo\MessageTemplateCollectionValidationMessageSuffix" xml:space="preserve">
+    <value>(For the "{TargetCollectionOwnerType}.{TargetCollectionPropertyName}" collection elements).</value>
+  </data>
+  <data name="Validation\Rules\StateIsReferencedXpo\Name" xml:space="preserve">
+    <value>StateIsReferencedXpo</value>
+  </data>
+  <data name="Non-calculated\Validation\Rules\StateIsReferencedXpo\CustomMessageTemplate" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Validation\Rules\StateIsReferencedXpo\MessageTemplateSkipNullOrEmptyValues" xml:space="preserve">
+    <value>The "{Id}" rule was not checked because one of the target properties is empty.</value>
+  </data>
+  <data name="Validation\Rules\StateIsReferencedXpo\MessageTemplateTargetDoesNotSatisfyTargetCriteria" xml:space="preserve">
+    <value>The "{Id}" rule was not checked because the target object does not satisfy rule's target criteria.</value>
+  </data>
+  <data name="Validation\Rules\XpoState.Caption\MessageTemplateMustNotBeEmpty" xml:space="preserve">
+    <value>"{TargetPropertyName}" must not be empty.</value>
+  </data>
+  <data name="Validation\Rules\XpoState.Caption\MessageTemplateTargetDoesNotSatisfyCollectionCriteria" xml:space="preserve">
+    <value>The "{Id}" rule was not checked because the target is not an element of the "{TargetCollectionOwnerType}.{TargetCollectionPropertyName}" collection.</value>
+  </data>
+  <data name="Validation\Rules\XpoState.Caption\MessageTemplateCollectionValidationMessageSuffix" xml:space="preserve">
+    <value>(For the "{TargetCollectionOwnerType}.{TargetCollectionPropertyName}" collection elements).</value>
+  </data>
+  <data name="Validation\Rules\XpoState.Caption\Name" xml:space="preserve">
+    <value>XpoState.Caption</value>
+  </data>
+  <data name="Non-calculated\Validation\Rules\XpoState.Caption\CustomMessageTemplate" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Validation\Rules\XpoState.Caption\MessageTemplateSkipNullOrEmptyValues" xml:space="preserve">
+    <value>The "{Id}" rule was not checked because one of the target properties is empty.</value>
+  </data>
+  <data name="Validation\Rules\XpoState.Caption\MessageTemplateTargetDoesNotSatisfyTargetCriteria" xml:space="preserve">
+    <value>The "{Id}" rule was not checked because the target object does not satisfy rule's target criteria.</value>
+  </data>
+  <data name="Validation\Rules\XpoStateAppearance.TargetItems\MessageTemplateMustNotBeEmpty" xml:space="preserve">
+    <value>"{TargetPropertyName}" must not be empty.</value>
+  </data>
+  <data name="Validation\Rules\XpoStateAppearance.TargetItems\MessageTemplateTargetDoesNotSatisfyCollectionCriteria" xml:space="preserve">
+    <value>The "{Id}" rule was not checked because the target is not an element of the "{TargetCollectionOwnerType}.{TargetCollectionPropertyName}" collection.</value>
+  </data>
+  <data name="Validation\Rules\XpoStateAppearance.TargetItems\MessageTemplateCollectionValidationMessageSuffix" xml:space="preserve">
+    <value>(For the "{TargetCollectionOwnerType}.{TargetCollectionPropertyName}" collection elements).</value>
+  </data>
+  <data name="Validation\Rules\XpoStateAppearance.TargetItems\Name" xml:space="preserve">
+    <value>XpoStateAppearance.TargetItems</value>
+  </data>
+  <data name="Non-calculated\Validation\Rules\XpoStateAppearance.TargetItems\CustomMessageTemplate" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Validation\Rules\XpoStateAppearance.TargetItems\MessageTemplateSkipNullOrEmptyValues" xml:space="preserve">
+    <value>The "{Id}" rule was not checked because one of the target properties is empty.</value>
+  </data>
+  <data name="Validation\Rules\XpoStateAppearance.TargetItems\MessageTemplateTargetDoesNotSatisfyTargetCriteria" xml:space="preserve">
+    <value>The "{Id}" rule was not checked because the target object does not satisfy rule's target criteria.</value>
+  </data>
+  <data name="Validation\Rules\XpoStateMachine.StartState\MessageTemplateMustSatisfyCriteria" xml:space="preserve">
+    <value>The "{TargetObject}" object must satisfy the following criteria: "{Criteria}".</value>
+  </data>
+  <data name="Validation\Rules\XpoStateMachine.StartState\MessageTemplateTargetDoesNotSatisfyCollectionCriteria" xml:space="preserve">
+    <value>The "{Id}" rule was not checked because the target is not an element of the "{TargetCollectionOwnerType}.{TargetCollectionPropertyName}" collection.</value>
+  </data>
+  <data name="Validation\Rules\XpoStateMachine.StartState\MessageTemplateCollectionValidationMessageSuffix" xml:space="preserve">
+    <value>(For the "{TargetCollectionOwnerType}.{TargetCollectionPropertyName}" collection elements).</value>
+  </data>
+  <data name="Validation\Rules\XpoStateMachine.StartState\Name" xml:space="preserve">
+    <value>XpoStateMachine.StartState</value>
+  </data>
+  <data name="Non-calculated\Validation\Rules\XpoStateMachine.StartState\CustomMessageTemplate" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Validation\Rules\XpoStateMachine.StartState\MessageTemplateSkipNullOrEmptyValues" xml:space="preserve">
+    <value>The "{Id}" rule was not checked because one of the target properties is empty.</value>
+  </data>
+  <data name="Validation\Rules\XpoStateMachine.StartState\MessageTemplateTargetDoesNotSatisfyTargetCriteria" xml:space="preserve">
+    <value>The "{Id}" rule was not checked because the target object does not satisfy rule's target criteria.</value>
+  </data>
+  <data name="Validation\Rules\XpoStateMachine.StatePropertyName\MessageTemplateMustNotBeEmpty" xml:space="preserve">
+    <value>"{TargetPropertyName}" must not be empty.</value>
+  </data>
+  <data name="Validation\Rules\XpoStateMachine.StatePropertyName\MessageTemplateTargetDoesNotSatisfyCollectionCriteria" xml:space="preserve">
+    <value>The "{Id}" rule was not checked because the target is not an element of the "{TargetCollectionOwnerType}.{TargetCollectionPropertyName}" collection.</value>
+  </data>
+  <data name="Validation\Rules\XpoStateMachine.StatePropertyName\MessageTemplateCollectionValidationMessageSuffix" xml:space="preserve">
+    <value>(For the "{TargetCollectionOwnerType}.{TargetCollectionPropertyName}" collection elements).</value>
+  </data>
+  <data name="Validation\Rules\XpoStateMachine.StatePropertyName\Name" xml:space="preserve">
+    <value>XpoStateMachine.StatePropertyName</value>
+  </data>
+  <data name="Non-calculated\Validation\Rules\XpoStateMachine.StatePropertyName\CustomMessageTemplate" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Validation\Rules\XpoStateMachine.StatePropertyName\MessageTemplateSkipNullOrEmptyValues" xml:space="preserve">
+    <value>The "{Id}" rule was not checked because one of the target properties is empty.</value>
+  </data>
+  <data name="Validation\Rules\XpoStateMachine.StatePropertyName\MessageTemplateTargetDoesNotSatisfyTargetCriteria" xml:space="preserve">
+    <value>The "{Id}" rule was not checked because the target object does not satisfy rule's target criteria.</value>
+  </data>
+  <data name="Validation\Rules\XpoStateMachine.TargetObjectType\MessageTemplateMustNotBeEmpty" xml:space="preserve">
+    <value>"{TargetPropertyName}" must not be empty.</value>
+  </data>
+  <data name="Validation\Rules\XpoStateMachine.TargetObjectType\MessageTemplateTargetDoesNotSatisfyCollectionCriteria" xml:space="preserve">
+    <value>The "{Id}" rule was not checked because the target is not an element of the "{TargetCollectionOwnerType}.{TargetCollectionPropertyName}" collection.</value>
+  </data>
+  <data name="Validation\Rules\XpoStateMachine.TargetObjectType\MessageTemplateCollectionValidationMessageSuffix" xml:space="preserve">
+    <value>(For the "{TargetCollectionOwnerType}.{TargetCollectionPropertyName}" collection elements).</value>
+  </data>
+  <data name="Validation\Rules\XpoStateMachine.TargetObjectType\Name" xml:space="preserve">
+    <value>XpoStateMachine.TargetObjectType</value>
+  </data>
+  <data name="Non-calculated\Validation\Rules\XpoStateMachine.TargetObjectType\CustomMessageTemplate" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Validation\Rules\XpoStateMachine.TargetObjectType\MessageTemplateSkipNullOrEmptyValues" xml:space="preserve">
+    <value>The "{Id}" rule was not checked because one of the target properties is empty.</value>
+  </data>
+  <data name="Validation\Rules\XpoStateMachine.TargetObjectType\MessageTemplateTargetDoesNotSatisfyTargetCriteria" xml:space="preserve">
+    <value>The "{Id}" rule was not checked because the target object does not satisfy rule's target criteria.</value>
+  </data>
+  <data name="Non-calculated\Validation\Rules\XpoStateMachine.UniqueStateMarker\FoundObjectMessageFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Validation\Rules\XpoStateMachine.UniqueStateMarker\MessageTemplateMustBeUnique" xml:space="preserve">
+    <value>There is an object with the same value specified for "{TargetPropertyName}". "{TargetPropertyName}" values must be unique.</value>
+  </data>
+  <data name="Non-calculated\Validation\Rules\XpoStateMachine.UniqueStateMarker\FoundObjectMessagesSeparator" xml:space="preserve">
+    <value>, </value>
+  </data>
+  <data name="Validation\Rules\XpoStateMachine.UniqueStateMarker\MessageTemplateFoundObjects" xml:space="preserve">
+    <value>The following objects are found: </value>
+  </data>
+  <data name="Validation\Rules\XpoStateMachine.UniqueStateMarker\MessageTemplateTargetDoesNotSatisfyCollectionCriteria" xml:space="preserve">
+    <value>The "{Id}" rule was not checked because the target is not an element of the "{TargetCollectionOwnerType}.{TargetCollectionPropertyName}" collection.</value>
+  </data>
+  <data name="Validation\Rules\XpoStateMachine.UniqueStateMarker\MessageTemplateCollectionValidationMessageSuffix" xml:space="preserve">
+    <value>(For the "{TargetCollectionOwnerType}.{TargetCollectionPropertyName}" collection elements).</value>
+  </data>
+  <data name="Validation\Rules\XpoStateMachine.UniqueStateMarker\Name" xml:space="preserve">
+    <value>XpoStateMachine.UniqueStateMarker</value>
+  </data>
+  <data name="Non-calculated\Validation\Rules\XpoStateMachine.UniqueStateMarker\CustomMessageTemplate" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Validation\Rules\XpoStateMachine.UniqueStateMarker\MessageTemplateSkipNullOrEmptyValues" xml:space="preserve">
+    <value>The "{Id}" rule was not checked because one of the target properties is empty.</value>
+  </data>
+  <data name="Validation\Rules\XpoStateMachine.UniqueStateMarker\MessageTemplateTargetDoesNotSatisfyTargetCriteria" xml:space="preserve">
+    <value>The "{Id}" rule was not checked because the target object does not satisfy rule's target criteria.</value>
+  </data>
+  <data name="Validation\Rules\XpoTransition.SourceState\MessageTemplateMustNotBeEmpty" xml:space="preserve">
+    <value>"{TargetPropertyName}" must not be empty.</value>
+  </data>
+  <data name="Validation\Rules\XpoTransition.SourceState\MessageTemplateTargetDoesNotSatisfyCollectionCriteria" xml:space="preserve">
+    <value>The "{Id}" rule was not checked because the target is not an element of the "{TargetCollectionOwnerType}.{TargetCollectionPropertyName}" collection.</value>
+  </data>
+  <data name="Validation\Rules\XpoTransition.SourceState\MessageTemplateCollectionValidationMessageSuffix" xml:space="preserve">
+    <value>(For the "{TargetCollectionOwnerType}.{TargetCollectionPropertyName}" collection elements).</value>
+  </data>
+  <data name="Validation\Rules\XpoTransition.SourceState\Name" xml:space="preserve">
+    <value>XpoTransition.SourceState</value>
+  </data>
+  <data name="Non-calculated\Validation\Rules\XpoTransition.SourceState\CustomMessageTemplate" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Validation\Rules\XpoTransition.SourceState\MessageTemplateSkipNullOrEmptyValues" xml:space="preserve">
+    <value>The "{Id}" rule was not checked because one of the target properties is empty.</value>
+  </data>
+  <data name="Validation\Rules\XpoTransition.SourceState\MessageTemplateTargetDoesNotSatisfyTargetCriteria" xml:space="preserve">
+    <value>The "{Id}" rule was not checked because the target object does not satisfy rule's target criteria.</value>
+  </data>
+  <data name="Validation\Rules\XpoTransition.TargetState\MessageTemplateMustNotBeEmpty" xml:space="preserve">
+    <value>"{TargetPropertyName}" must not be empty.</value>
+  </data>
+  <data name="Validation\Rules\XpoTransition.TargetState\MessageTemplateTargetDoesNotSatisfyCollectionCriteria" xml:space="preserve">
+    <value>The "{Id}" rule was not checked because the target is not an element of the "{TargetCollectionOwnerType}.{TargetCollectionPropertyName}" collection.</value>
+  </data>
+  <data name="Validation\Rules\XpoTransition.TargetState\MessageTemplateCollectionValidationMessageSuffix" xml:space="preserve">
+    <value>(For the "{TargetCollectionOwnerType}.{TargetCollectionPropertyName}" collection elements).</value>
+  </data>
+  <data name="Validation\Rules\XpoTransition.TargetState\Name" xml:space="preserve">
+    <value>XpoTransition.TargetState</value>
+  </data>
+  <data name="Non-calculated\Validation\Rules\XpoTransition.TargetState\CustomMessageTemplate" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Validation\Rules\XpoTransition.TargetState\MessageTemplateSkipNullOrEmptyValues" xml:space="preserve">
+    <value>The "{Id}" rule was not checked because one of the target properties is empty.</value>
+  </data>
+  <data name="Validation\Rules\XpoTransition.TargetState\MessageTemplateTargetDoesNotSatisfyTargetCriteria" xml:space="preserve">
+    <value>The "{Id}" rule was not checked because the target object does not satisfy rule's target criteria.</value>
+  </data>
+  <data name="Views\MarkerObject_DetailView\ObjectCaptionFormat" xml:space="preserve">
+    <value>{0:DisplayName}</value>
+  </data>
+  <data name="Views\MarkerObject_DetailView\Caption" xml:space="preserve">
+    <value>Marker Object</value>
+  </data>
+  <data name="Views\MarkerObject_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\MarkerObject_DetailView\RequiredFieldMark" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\MarkerObject_DetailView\Items\DisplayName\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\MarkerObject_DetailView\Items\DisplayName\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\MarkerObject_DetailView\Items\DisplayName\Caption" xml:space="preserve">
+    <value>Display Name</value>
+  </data>
+  <data name="Views\MarkerObject_DetailView\Items\DisplayName\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\MarkerObject_DetailView\Items\DisplayName\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\MarkerObject_DetailView\Items\DisplayName\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\MarkerObject_DetailView\Items\DisplayName\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\MarkerObject_DetailView\Layout\Main\Caption" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="Views\MarkerObject_DetailView\Layout\Main\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\MarkerObject_DetailView\Layout\Main\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\MarkerObject_DetailView\Layout\Main\SimpleEditors\Caption" xml:space="preserve">
+    <value>SimpleEditors</value>
+  </data>
+  <data name="Views\MarkerObject_DetailView\Layout\Main\SimpleEditors\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\MarkerObject_DetailView\Layout\Main\SimpleEditors\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\MarkerObject_DetailView\Layout\Main\SimpleEditors\MarkerObject\Caption" xml:space="preserve">
+    <value>Display Name</value>
+  </data>
+  <data name="Views\MarkerObject_DetailView\Layout\Main\SimpleEditors\MarkerObject\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\MarkerObject_DetailView\Layout\Main\SimpleEditors\MarkerObject\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\MarkerObject_DetailView\Layout\Main\SimpleEditors\MarkerObject\DisplayName\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\MarkerObject_DetailView\Layout\Main\SimpleEditors\MarkerObject\DisplayName\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\MarkerObject_ListView\Caption" xml:space="preserve">
+    <value>Marker Object</value>
+  </data>
+  <data name="Views\MarkerObject_ListView\Columns\DisplayName\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\MarkerObject_ListView\Columns\DisplayName\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\MarkerObject_ListView\Columns\DisplayName\Caption" xml:space="preserve">
+    <value>Display Name</value>
+  </data>
+  <data name="Views\MarkerObject_ListView\Columns\DisplayName\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\MarkerObject_ListView\Columns\DisplayName\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\MarkerObject_ListView\Columns\DisplayName\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\MarkerObject_ListView\Columns\DisplayName\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\MarkerObject_LookupListView\Caption" xml:space="preserve">
+    <value>Marker Object</value>
+  </data>
+  <data name="Views\MarkerObject_LookupListView\Columns\DisplayName\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\MarkerObject_LookupListView\Columns\DisplayName\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\MarkerObject_LookupListView\Columns\DisplayName\Caption" xml:space="preserve">
+    <value>Display Name</value>
+  </data>
+  <data name="Views\MarkerObject_LookupListView\Columns\DisplayName\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\MarkerObject_LookupListView\Columns\DisplayName\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\MarkerObject_LookupListView\Columns\DisplayName\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\MarkerObject_LookupListView\Columns\DisplayName\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\StateMachineObjectBase_DetailView\ObjectCaptionFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\StateMachineObjectBase_DetailView\Caption" xml:space="preserve">
+    <value>State Machine Object Base</value>
+  </data>
+  <data name="Views\StateMachineObjectBase_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\StateMachineObjectBase_DetailView\RequiredFieldMark" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\StateMachineObjectBase_ListView\Caption" xml:space="preserve">
+    <value>State Machine Object Base</value>
+  </data>
+  <data name="Views\StateMachineObjectBase_LookupListView\Caption" xml:space="preserve">
+    <value>State Machine Object Base</value>
+  </data>
+  <data name="Views\StringObject_DetailView\ObjectCaptionFormat" xml:space="preserve">
+    <value>{0:Name}</value>
+  </data>
+  <data name="Views\StringObject_DetailView\Caption" xml:space="preserve">
+    <value>String Object</value>
+  </data>
+  <data name="Views\StringObject_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\StringObject_DetailView\RequiredFieldMark" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\StringObject_DetailView\Items\Name\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\StringObject_DetailView\Items\Name\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\StringObject_DetailView\Items\Name\Caption" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Views\StringObject_DetailView\Items\Name\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\StringObject_DetailView\Items\Name\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\StringObject_DetailView\Items\Name\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\StringObject_DetailView\Items\Name\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\StringObject_DetailView\Layout\Main\Caption" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="Views\StringObject_DetailView\Layout\Main\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\StringObject_DetailView\Layout\Main\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\StringObject_DetailView\Layout\Main\SimpleEditors\Caption" xml:space="preserve">
+    <value>SimpleEditors</value>
+  </data>
+  <data name="Views\StringObject_DetailView\Layout\Main\SimpleEditors\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\StringObject_DetailView\Layout\Main\SimpleEditors\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\StringObject_DetailView\Layout\Main\SimpleEditors\StringObject\Caption" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Views\StringObject_DetailView\Layout\Main\SimpleEditors\StringObject\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\StringObject_DetailView\Layout\Main\SimpleEditors\StringObject\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\StringObject_DetailView\Layout\Main\SimpleEditors\StringObject\Name\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\StringObject_DetailView\Layout\Main\SimpleEditors\StringObject\Name\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\StringObject_ListView\Caption" xml:space="preserve">
+    <value>String Object</value>
+  </data>
+  <data name="Views\StringObject_ListView\Columns\Name\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\StringObject_ListView\Columns\Name\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\StringObject_ListView\Columns\Name\Caption" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Views\StringObject_ListView\Columns\Name\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\StringObject_ListView\Columns\Name\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\StringObject_ListView\Columns\Name\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\StringObject_ListView\Columns\Name\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\StringObject_LookupListView\Caption" xml:space="preserve">
+    <value>String Object</value>
+  </data>
+  <data name="Views\StringObject_LookupListView\Columns\Name\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\StringObject_LookupListView\Columns\Name\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\StringObject_LookupListView\Columns\Name\Caption" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Views\StringObject_LookupListView\Columns\Name\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\StringObject_LookupListView\Columns\Name\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\StringObject_LookupListView\Columns\Name\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\StringObject_LookupListView\Columns\Name\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Caption" xml:space="preserve">
+    <value>Appearance</value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\AppearanceItemType\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\AppearanceItemType\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\AppearanceItemType\Caption" xml:space="preserve">
+    <value>Appearance Item Type</value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\AppearanceItemType\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\AppearanceItemType\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\AppearanceItemType\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\AppearanceItemType\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\Context\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\Context\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\Context\Caption" xml:space="preserve">
+    <value>Context</value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\Context\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\Context\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\Context\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\Context\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\TargetItems\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\TargetItems\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\TargetItems\Caption" xml:space="preserve">
+    <value>Target Items</value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\TargetItems\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\TargetItems\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\TargetItems\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\TargetItems\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\Priority\EditMask" xml:space="preserve">
+    <value>N0</value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\Priority\DisplayFormat" xml:space="preserve">
+    <value>{0:N0}</value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\Priority\Caption" xml:space="preserve">
+    <value>Priority</value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\Priority\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\Priority\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\Priority\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\Priority\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\FontColor\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\FontColor\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\FontColor\Caption" xml:space="preserve">
+    <value>Font Color</value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\FontColor\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\FontColor\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\FontColor\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\FontColor\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\BackColor\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\BackColor\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\BackColor\Caption" xml:space="preserve">
+    <value>Back Color</value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\BackColor\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\BackColor\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\BackColor\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\BackColor\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\FontStyle\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\FontStyle\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\FontStyle\Caption" xml:space="preserve">
+    <value>Font Style</value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\FontStyle\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\FontStyle\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\FontStyle\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\FontStyle\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\Enabled\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\Enabled\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\Enabled\Caption" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\Enabled\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\Enabled\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\Enabled\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\Enabled\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\Visibility\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\Visibility\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\Visibility\Caption" xml:space="preserve">
+    <value>Visibility</value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\Visibility\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\Visibility\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\Visibility\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Appearance_ListView\Columns\Visibility\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\ObjectCaptionFormat" xml:space="preserve">
+    <value>{0:Caption}</value>
+  </data>
+  <data name="Views\XpoState_DetailView\Caption" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="Views\XpoState_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\XpoState_DetailView\RequiredFieldMark" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Items\Appearance\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Items\Appearance\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Items\Appearance\Caption" xml:space="preserve">
+    <value>Appearance</value>
+  </data>
+  <data name="Views\XpoState_DetailView\Items\Appearance\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Items\Appearance\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Items\Appearance\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Items\Appearance\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Items\Caption\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Items\Caption\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Items\Caption\Caption" xml:space="preserve">
+    <value>Caption</value>
+  </data>
+  <data name="Views\XpoState_DetailView\Items\Caption\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Items\Caption\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Items\Caption\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Items\Caption\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Items\Marker\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Items\Marker\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Items\Marker\Caption" xml:space="preserve">
+    <value>Marker</value>
+  </data>
+  <data name="Views\XpoState_DetailView\Items\Marker\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Items\Marker\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Items\Marker\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Items\Marker\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Items\TargetObjectCriteria\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Items\TargetObjectCriteria\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Items\TargetObjectCriteria\Caption" xml:space="preserve">
+    <value>Target Object Criteria</value>
+  </data>
+  <data name="Views\XpoState_DetailView\Items\TargetObjectCriteria\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Items\TargetObjectCriteria\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Items\TargetObjectCriteria\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Items\TargetObjectCriteria\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Items\Transitions\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Items\Transitions\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Items\Transitions\Caption" xml:space="preserve">
+    <value>Transitions</value>
+  </data>
+  <data name="Views\XpoState_DetailView\Items\Transitions\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Items\Transitions\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Items\Transitions\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Items\Transitions\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Layout\Main\Caption" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="Views\XpoState_DetailView\Layout\Main\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Layout\Main\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Layout\Main\SimpleEditors\Caption" xml:space="preserve">
+    <value>SimpleEditors</value>
+  </data>
+  <data name="Views\XpoState_DetailView\Layout\Main\SimpleEditors\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Layout\Main\SimpleEditors\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Layout\Main\SimpleEditors\XpoState\Caption" xml:space="preserve">
+    <value>XpoState</value>
+  </data>
+  <data name="Views\XpoState_DetailView\Layout\Main\SimpleEditors\XpoState\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Layout\Main\SimpleEditors\XpoState\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Layout\Main\SimpleEditors\XpoState\Caption\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Layout\Main\SimpleEditors\XpoState\Caption\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Layout\Main\SimpleEditors\XpoState\Marker\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Layout\Main\SimpleEditors\XpoState\Marker\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Layout\Main\SizeableEditors\Caption" xml:space="preserve">
+    <value>Target Object Criteria</value>
+  </data>
+  <data name="Views\XpoState_DetailView\Layout\Main\SizeableEditors\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Layout\Main\SizeableEditors\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Layout\Main\SizeableEditors\TargetObjectCriteria\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Layout\Main\SizeableEditors\TargetObjectCriteria\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\Views\XpoState_DetailView\Layout\Main\Tabs\Caption" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Layout\Main\Tabs\Transitions\Caption" xml:space="preserve">
+    <value>Transitions</value>
+  </data>
+  <data name="Views\XpoState_DetailView\Layout\Main\Tabs\Transitions\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Layout\Main\Tabs\Transitions\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Layout\Main\Tabs\Transitions\Transitions\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Layout\Main\Tabs\Transitions\Transitions\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Layout\Main\Tabs\Appearance\Caption" xml:space="preserve">
+    <value>Appearance</value>
+  </data>
+  <data name="Views\XpoState_DetailView\Layout\Main\Tabs\Appearance\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Layout\Main\Tabs\Appearance\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Layout\Main\Tabs\Appearance\Appearance\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_DetailView\Layout\Main\Tabs\Appearance\Appearance\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_ListView\Caption" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="Views\XpoState_ListView\Columns\TargetObjectCriteria\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_ListView\Columns\TargetObjectCriteria\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_ListView\Columns\TargetObjectCriteria\Caption" xml:space="preserve">
+    <value>Target Object Criteria</value>
+  </data>
+  <data name="Views\XpoState_ListView\Columns\TargetObjectCriteria\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_ListView\Columns\TargetObjectCriteria\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_ListView\Columns\TargetObjectCriteria\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_ListView\Columns\TargetObjectCriteria\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_ListView\Columns\Caption\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_ListView\Columns\Caption\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_ListView\Columns\Caption\Caption" xml:space="preserve">
+    <value>Caption</value>
+  </data>
+  <data name="Views\XpoState_ListView\Columns\Caption\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_ListView\Columns\Caption\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_ListView\Columns\Caption\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_ListView\Columns\Caption\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_ListView\Columns\StateMachine\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_ListView\Columns\StateMachine\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_ListView\Columns\StateMachine\Caption" xml:space="preserve">
+    <value>State Machine</value>
+  </data>
+  <data name="Views\XpoState_ListView\Columns\StateMachine\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_ListView\Columns\StateMachine\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_ListView\Columns\StateMachine\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_ListView\Columns\StateMachine\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_ListView\Columns\Marker\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_ListView\Columns\Marker\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_ListView\Columns\Marker\Caption" xml:space="preserve">
+    <value>Marker</value>
+  </data>
+  <data name="Views\XpoState_ListView\Columns\Marker\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_ListView\Columns\Marker\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_ListView\Columns\Marker\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_ListView\Columns\Marker\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_LookupListView\Caption" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="Views\XpoState_LookupListView\Columns\Caption\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_LookupListView\Columns\Caption\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_LookupListView\Columns\Caption\Caption" xml:space="preserve">
+    <value>Caption</value>
+  </data>
+  <data name="Views\XpoState_LookupListView\Columns\Caption\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_LookupListView\Columns\Caption\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_LookupListView\Columns\Caption\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_LookupListView\Columns\Caption\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Transitions_ListView\Caption" xml:space="preserve">
+    <value>Transition</value>
+  </data>
+  <data name="Views\XpoState_Transitions_ListView\Columns\SourceState\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Transitions_ListView\Columns\SourceState\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Transitions_ListView\Columns\SourceState\Caption" xml:space="preserve">
+    <value>Source State</value>
+  </data>
+  <data name="Views\XpoState_Transitions_ListView\Columns\SourceState\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Transitions_ListView\Columns\SourceState\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Transitions_ListView\Columns\SourceState\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Transitions_ListView\Columns\SourceState\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Transitions_ListView\Columns\Caption\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Transitions_ListView\Columns\Caption\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Transitions_ListView\Columns\Caption\Caption" xml:space="preserve">
+    <value>Caption</value>
+  </data>
+  <data name="Views\XpoState_Transitions_ListView\Columns\Caption\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Transitions_ListView\Columns\Caption\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Transitions_ListView\Columns\Caption\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Transitions_ListView\Columns\Caption\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Transitions_ListView\Columns\TargetState\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Transitions_ListView\Columns\TargetState\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Transitions_ListView\Columns\TargetState\Caption" xml:space="preserve">
+    <value>Target State</value>
+  </data>
+  <data name="Views\XpoState_Transitions_ListView\Columns\TargetState\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Transitions_ListView\Columns\TargetState\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Transitions_ListView\Columns\TargetState\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Transitions_ListView\Columns\TargetState\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Transitions_ListView\Columns\Index\EditMask" xml:space="preserve">
+    <value>N0</value>
+  </data>
+  <data name="Views\XpoState_Transitions_ListView\Columns\Index\DisplayFormat" xml:space="preserve">
+    <value>{0:N0}</value>
+  </data>
+  <data name="Views\XpoState_Transitions_ListView\Columns\Index\Caption" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <data name="Views\XpoState_Transitions_ListView\Columns\Index\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Transitions_ListView\Columns\Index\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Transitions_ListView\Columns\Index\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Transitions_ListView\Columns\Index\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Transitions_ListView\Columns\SaveAndCloseView\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Transitions_ListView\Columns\SaveAndCloseView\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Transitions_ListView\Columns\SaveAndCloseView\Caption" xml:space="preserve">
+    <value>Save And Close View</value>
+  </data>
+  <data name="Views\XpoState_Transitions_ListView\Columns\SaveAndCloseView\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Transitions_ListView\Columns\SaveAndCloseView\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Transitions_ListView\Columns\SaveAndCloseView\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoState_Transitions_ListView\Columns\SaveAndCloseView\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\ObjectCaptionFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Caption" xml:space="preserve">
+    <value>Appearance</value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\RequiredFieldMark" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\AppearanceItemType\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\AppearanceItemType\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\AppearanceItemType\Caption" xml:space="preserve">
+    <value>Appearance Item Type</value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\AppearanceItemType\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\AppearanceItemType\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\AppearanceItemType\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\AppearanceItemType\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\BackColor\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\BackColor\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\BackColor\Caption" xml:space="preserve">
+    <value>Back Color</value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\BackColor\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\BackColor\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\BackColor\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\BackColor\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\Context\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\Context\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\Context\Caption" xml:space="preserve">
+    <value>Context</value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\Context\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\Context\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\Context\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\Context\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\Enabled\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\Enabled\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\Enabled\Caption" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\Enabled\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\Enabled\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\Enabled\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\Enabled\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\FontColor\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\FontColor\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\FontColor\Caption" xml:space="preserve">
+    <value>Font Color</value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\FontColor\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\FontColor\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\FontColor\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\FontColor\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\FontStyle\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\FontStyle\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\FontStyle\Caption" xml:space="preserve">
+    <value>Font Style</value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\FontStyle\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\FontStyle\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\FontStyle\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\FontStyle\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\Priority\EditMask" xml:space="preserve">
+    <value>N0</value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\Priority\DisplayFormat" xml:space="preserve">
+    <value>{0:N0}</value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\Priority\Caption" xml:space="preserve">
+    <value>Priority</value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\Priority\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\Priority\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\Priority\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\Priority\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\TargetItems\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\TargetItems\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\TargetItems\Caption" xml:space="preserve">
+    <value>Target Items</value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\TargetItems\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\TargetItems\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\TargetItems\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\TargetItems\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\Visibility\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\Visibility\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\Visibility\Caption" xml:space="preserve">
+    <value>Visibility</value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\Visibility\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\Visibility\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\Visibility\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Items\Visibility\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Layout\Main\Caption" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Layout\Main\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Layout\Main\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Layout\Main\SimpleEditors\Caption" xml:space="preserve">
+    <value>SimpleEditors</value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Layout\Main\SimpleEditors\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Layout\Main\SimpleEditors\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\Views\XpoStateAppearance_DetailView\Layout\Main\SimpleEditors\XpoStateAppearance\Caption" xml:space="preserve">
+    <value>Xpo State Appearance</value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Layout\Main\SimpleEditors\XpoStateAppearance\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Layout\Main\SimpleEditors\XpoStateAppearance\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Layout\Main\SimpleEditors\XpoStateAppearance\XpoStateAppearance_col1\Caption" xml:space="preserve">
+    <value>XpoStateAppearance_col1</value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Layout\Main\SimpleEditors\XpoStateAppearance\XpoStateAppearance_col1\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Layout\Main\SimpleEditors\XpoStateAppearance\XpoStateAppearance_col1\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Layout\Main\SimpleEditors\XpoStateAppearance\XpoStateAppearance_col1\AppearanceItemType\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Layout\Main\SimpleEditors\XpoStateAppearance\XpoStateAppearance_col1\AppearanceItemType\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Layout\Main\SimpleEditors\XpoStateAppearance\XpoStateAppearance_col1\Context\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Layout\Main\SimpleEditors\XpoStateAppearance\XpoStateAppearance_col1\Context\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Layout\Main\SimpleEditors\XpoStateAppearance\XpoStateAppearance_col1\TargetItems\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Layout\Main\SimpleEditors\XpoStateAppearance\XpoStateAppearance_col1\TargetItems\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Layout\Main\SimpleEditors\XpoStateAppearance\XpoStateAppearance_col1\Priority\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Layout\Main\SimpleEditors\XpoStateAppearance\XpoStateAppearance_col1\Priority\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Layout\Main\SimpleEditors\XpoStateAppearance\XpoStateAppearance_col1\FontColor\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Layout\Main\SimpleEditors\XpoStateAppearance\XpoStateAppearance_col1\FontColor\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Layout\Main\SimpleEditors\XpoStateAppearance\XpoStateAppearance_col2\Caption" xml:space="preserve">
+    <value>XpoStateAppearance_col2</value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Layout\Main\SimpleEditors\XpoStateAppearance\XpoStateAppearance_col2\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Layout\Main\SimpleEditors\XpoStateAppearance\XpoStateAppearance_col2\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Layout\Main\SimpleEditors\XpoStateAppearance\XpoStateAppearance_col2\BackColor\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Layout\Main\SimpleEditors\XpoStateAppearance\XpoStateAppearance_col2\BackColor\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Layout\Main\SimpleEditors\XpoStateAppearance\XpoStateAppearance_col2\FontStyle\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Layout\Main\SimpleEditors\XpoStateAppearance\XpoStateAppearance_col2\FontStyle\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Layout\Main\SimpleEditors\XpoStateAppearance\XpoStateAppearance_col2\Enabled\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Layout\Main\SimpleEditors\XpoStateAppearance\XpoStateAppearance_col2\Enabled\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Layout\Main\SimpleEditors\XpoStateAppearance\XpoStateAppearance_col2\Visibility\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_DetailView\Layout\Main\SimpleEditors\XpoStateAppearance\XpoStateAppearance_col2\Visibility\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Caption" xml:space="preserve">
+    <value>Appearance</value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\AppearanceItemType\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\AppearanceItemType\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\AppearanceItemType\Caption" xml:space="preserve">
+    <value>Appearance Item Type</value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\AppearanceItemType\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\AppearanceItemType\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\AppearanceItemType\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\AppearanceItemType\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\Context\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\Context\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\Context\Caption" xml:space="preserve">
+    <value>Context</value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\Context\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\Context\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\Context\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\Context\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\TargetItems\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\TargetItems\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\TargetItems\Caption" xml:space="preserve">
+    <value>Target Items</value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\TargetItems\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\TargetItems\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\TargetItems\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\TargetItems\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\Priority\EditMask" xml:space="preserve">
+    <value>N0</value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\Priority\DisplayFormat" xml:space="preserve">
+    <value>{0:N0}</value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\Priority\Caption" xml:space="preserve">
+    <value>Priority</value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\Priority\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\Priority\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\Priority\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\Priority\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\FontColor\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\FontColor\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\FontColor\Caption" xml:space="preserve">
+    <value>Font Color</value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\FontColor\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\FontColor\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\FontColor\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\FontColor\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\BackColor\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\BackColor\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\BackColor\Caption" xml:space="preserve">
+    <value>Back Color</value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\BackColor\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\BackColor\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\BackColor\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\BackColor\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\FontStyle\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\FontStyle\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\FontStyle\Caption" xml:space="preserve">
+    <value>Font Style</value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\FontStyle\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\FontStyle\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\FontStyle\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\FontStyle\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\Enabled\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\Enabled\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\Enabled\Caption" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\Enabled\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\Enabled\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\Enabled\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\Enabled\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\Visibility\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\Visibility\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\Visibility\Caption" xml:space="preserve">
+    <value>Visibility</value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\Visibility\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\Visibility\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\Visibility\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_ListView\Columns\Visibility\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Caption" xml:space="preserve">
+    <value>Appearance</value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\AppearanceItemType\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\AppearanceItemType\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\AppearanceItemType\Caption" xml:space="preserve">
+    <value>Appearance Item Type</value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\AppearanceItemType\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\AppearanceItemType\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\AppearanceItemType\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\AppearanceItemType\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\Context\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\Context\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\Context\Caption" xml:space="preserve">
+    <value>Context</value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\Context\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\Context\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\Context\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\Context\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\TargetItems\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\TargetItems\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\TargetItems\Caption" xml:space="preserve">
+    <value>Target Items</value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\TargetItems\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\TargetItems\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\TargetItems\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\TargetItems\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\Priority\EditMask" xml:space="preserve">
+    <value>N0</value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\Priority\DisplayFormat" xml:space="preserve">
+    <value>{0:N0}</value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\Priority\Caption" xml:space="preserve">
+    <value>Priority</value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\Priority\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\Priority\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\Priority\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\Priority\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\FontColor\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\FontColor\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\FontColor\Caption" xml:space="preserve">
+    <value>Font Color</value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\FontColor\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\FontColor\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\FontColor\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\FontColor\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\BackColor\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\BackColor\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\BackColor\Caption" xml:space="preserve">
+    <value>Back Color</value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\BackColor\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\BackColor\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\BackColor\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\BackColor\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\FontStyle\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\FontStyle\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\FontStyle\Caption" xml:space="preserve">
+    <value>Font Style</value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\FontStyle\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\FontStyle\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\FontStyle\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\FontStyle\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\Enabled\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\Enabled\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\Enabled\Caption" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\Enabled\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\Enabled\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\Enabled\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\Enabled\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\Visibility\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\Visibility\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\Visibility\Caption" xml:space="preserve">
+    <value>Visibility</value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\Visibility\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\Visibility\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\Visibility\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateAppearance_LookupListView\Columns\Visibility\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\ObjectCaptionFormat" xml:space="preserve">
+    <value>{0:Name}</value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Caption" xml:space="preserve">
+    <value>State Machine</value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\RequiredFieldMark" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\Active\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\Active\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\Active\Caption" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\Active\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\Active\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\Active\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\Active\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\ExpandActionsInDetailView\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\ExpandActionsInDetailView\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\ExpandActionsInDetailView\Caption" xml:space="preserve">
+    <value>Expand Actions In Detail View</value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\ExpandActionsInDetailView\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\ExpandActionsInDetailView\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\ExpandActionsInDetailView\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\ExpandActionsInDetailView\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\Name\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\Name\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\Name\Caption" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\Name\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\Name\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\Name\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\Name\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\StartState\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\StartState\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\StartState\Caption" xml:space="preserve">
+    <value>Start State</value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\StartState\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\StartState\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\StartState\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\StartState\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\StatePropertyName\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\StatePropertyName\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\StatePropertyName\Caption" xml:space="preserve">
+    <value>State Property Name</value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\StatePropertyName\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\StatePropertyName\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\StatePropertyName\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\StatePropertyName\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\States\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\States\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\States\Caption" xml:space="preserve">
+    <value>States</value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\States\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\States\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\States\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\States\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\TargetObjectType\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\TargetObjectType\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\TargetObjectType\Caption" xml:space="preserve">
+    <value>Target Object Type</value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\TargetObjectType\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\TargetObjectType\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\TargetObjectType\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Items\TargetObjectType\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\Views\XpoStateMachine_DetailView\Layout\Main\Caption" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Layout\Main\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Layout\Main\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\Views\XpoStateMachine_DetailView\Layout\Main\SimpleEditors\Caption" xml:space="preserve">
+    <value>SimpleEditors</value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Layout\Main\SimpleEditors\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Layout\Main\SimpleEditors\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\Views\XpoStateMachine_DetailView\Layout\Main\SimpleEditors\XpoStateMachine\Caption" xml:space="preserve">
+    <value>Xpo State Machine</value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Layout\Main\SimpleEditors\XpoStateMachine\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Layout\Main\SimpleEditors\XpoStateMachine\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\Views\XpoStateMachine_DetailView\Layout\Main\SimpleEditors\XpoStateMachine\XpoStateMachine_col1\Caption" xml:space="preserve">
+    <value>XpoStateMachine_col1</value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Layout\Main\SimpleEditors\XpoStateMachine\XpoStateMachine_col1\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Layout\Main\SimpleEditors\XpoStateMachine\XpoStateMachine_col1\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Layout\Main\SimpleEditors\XpoStateMachine\XpoStateMachine_col1\Name\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Layout\Main\SimpleEditors\XpoStateMachine\XpoStateMachine_col1\Name\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Layout\Main\SimpleEditors\XpoStateMachine\XpoStateMachine_col1\TargetObjectType\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Layout\Main\SimpleEditors\XpoStateMachine\XpoStateMachine_col1\TargetObjectType\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Layout\Main\SimpleEditors\XpoStateMachine\XpoStateMachine_col1\StartState\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Layout\Main\SimpleEditors\XpoStateMachine\XpoStateMachine_col1\StartState\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\Views\XpoStateMachine_DetailView\Layout\Main\SimpleEditors\XpoStateMachine\XpoStateMachine_col2\Caption" xml:space="preserve">
+    <value>XpoStateMachine_col2</value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Layout\Main\SimpleEditors\XpoStateMachine\XpoStateMachine_col2\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Layout\Main\SimpleEditors\XpoStateMachine\XpoStateMachine_col2\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Layout\Main\SimpleEditors\XpoStateMachine\XpoStateMachine_col2\Active\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Layout\Main\SimpleEditors\XpoStateMachine\XpoStateMachine_col2\Active\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Layout\Main\SimpleEditors\XpoStateMachine\XpoStateMachine_col2\StatePropertyName\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Layout\Main\SimpleEditors\XpoStateMachine\XpoStateMachine_col2\StatePropertyName\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Layout\Main\SimpleEditors\XpoStateMachine\XpoStateMachine_col2\ExpandActionsInDetailView\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Layout\Main\SimpleEditors\XpoStateMachine\XpoStateMachine_col2\ExpandActionsInDetailView\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Non-calculated\Views\XpoStateMachine_DetailView\Layout\Main\States_Group\Caption" xml:space="preserve">
+    <value>States</value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Layout\Main\States_Group\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Layout\Main\States_Group\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Layout\Main\States_Group\States\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_DetailView\Layout\Main\States_Group\States\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_ListView\Caption" xml:space="preserve">
+    <value>State Machine</value>
+  </data>
+  <data name="Views\XpoStateMachine_ListView\Columns\Name\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_ListView\Columns\Name\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_ListView\Columns\Name\Caption" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Views\XpoStateMachine_ListView\Columns\Name\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_ListView\Columns\Name\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_ListView\Columns\Name\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_ListView\Columns\Name\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_ListView\Columns\Active\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_ListView\Columns\Active\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_ListView\Columns\Active\Caption" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="Views\XpoStateMachine_ListView\Columns\Active\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_ListView\Columns\Active\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_ListView\Columns\Active\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_ListView\Columns\Active\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_ListView\Columns\TargetObjectType\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_ListView\Columns\TargetObjectType\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_ListView\Columns\TargetObjectType\Caption" xml:space="preserve">
+    <value>Target Object Type</value>
+  </data>
+  <data name="Views\XpoStateMachine_ListView\Columns\TargetObjectType\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_ListView\Columns\TargetObjectType\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_ListView\Columns\TargetObjectType\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_ListView\Columns\TargetObjectType\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_ListView\Columns\StatePropertyName\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_ListView\Columns\StatePropertyName\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_ListView\Columns\StatePropertyName\Caption" xml:space="preserve">
+    <value>State Property Name</value>
+  </data>
+  <data name="Views\XpoStateMachine_ListView\Columns\StatePropertyName\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_ListView\Columns\StatePropertyName\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_ListView\Columns\StatePropertyName\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_ListView\Columns\StatePropertyName\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_ListView\Columns\StartState\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_ListView\Columns\StartState\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_ListView\Columns\StartState\Caption" xml:space="preserve">
+    <value>Start State</value>
+  </data>
+  <data name="Views\XpoStateMachine_ListView\Columns\StartState\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_ListView\Columns\StartState\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_ListView\Columns\StartState\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_ListView\Columns\StartState\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_ListView\Columns\ExpandActionsInDetailView\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_ListView\Columns\ExpandActionsInDetailView\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_ListView\Columns\ExpandActionsInDetailView\Caption" xml:space="preserve">
+    <value>Expand Actions In Detail View</value>
+  </data>
+  <data name="Views\XpoStateMachine_ListView\Columns\ExpandActionsInDetailView\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_ListView\Columns\ExpandActionsInDetailView\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_ListView\Columns\ExpandActionsInDetailView\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_ListView\Columns\ExpandActionsInDetailView\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_LookupListView\Caption" xml:space="preserve">
+    <value>State Machine</value>
+  </data>
+  <data name="Views\XpoStateMachine_LookupListView\Columns\Name\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_LookupListView\Columns\Name\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_LookupListView\Columns\Name\Caption" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Views\XpoStateMachine_LookupListView\Columns\Name\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_LookupListView\Columns\Name\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_LookupListView\Columns\Name\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_LookupListView\Columns\Name\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_States_ListView\Caption" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="Views\XpoStateMachine_States_ListView\Columns\StateMachine\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_States_ListView\Columns\StateMachine\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_States_ListView\Columns\StateMachine\Caption" xml:space="preserve">
+    <value>State Machine</value>
+  </data>
+  <data name="Views\XpoStateMachine_States_ListView\Columns\StateMachine\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_States_ListView\Columns\StateMachine\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_States_ListView\Columns\StateMachine\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_States_ListView\Columns\StateMachine\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_States_ListView\Columns\TargetObjectCriteria\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_States_ListView\Columns\TargetObjectCriteria\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_States_ListView\Columns\TargetObjectCriteria\Caption" xml:space="preserve">
+    <value>Target Object Criteria</value>
+  </data>
+  <data name="Views\XpoStateMachine_States_ListView\Columns\TargetObjectCriteria\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_States_ListView\Columns\TargetObjectCriteria\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_States_ListView\Columns\TargetObjectCriteria\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_States_ListView\Columns\TargetObjectCriteria\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_States_ListView\Columns\Caption\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_States_ListView\Columns\Caption\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_States_ListView\Columns\Caption\Caption" xml:space="preserve">
+    <value>Caption</value>
+  </data>
+  <data name="Views\XpoStateMachine_States_ListView\Columns\Caption\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_States_ListView\Columns\Caption\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_States_ListView\Columns\Caption\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_States_ListView\Columns\Caption\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_States_ListView\Columns\Marker\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_States_ListView\Columns\Marker\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_States_ListView\Columns\Marker\Caption" xml:space="preserve">
+    <value>Marker</value>
+  </data>
+  <data name="Views\XpoStateMachine_States_ListView\Columns\Marker\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_States_ListView\Columns\Marker\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_States_ListView\Columns\Marker\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoStateMachine_States_ListView\Columns\Marker\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\ObjectCaptionFormat" xml:space="preserve">
+    <value>{0:Caption}</value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Caption" xml:space="preserve">
+    <value>Transition</value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\RequiredFieldMark" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Items\Caption\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Items\Caption\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Items\Caption\Caption" xml:space="preserve">
+    <value>Caption</value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Items\Caption\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Items\Caption\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Items\Caption\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Items\Caption\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Items\Index\EditMask" xml:space="preserve">
+    <value>N0</value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Items\Index\DisplayFormat" xml:space="preserve">
+    <value>{0:N0}</value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Items\Index\Caption" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Items\Index\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Items\Index\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Items\Index\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Items\Index\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Items\SaveAndCloseView\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Items\SaveAndCloseView\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Items\SaveAndCloseView\Caption" xml:space="preserve">
+    <value>Save And Close View</value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Items\SaveAndCloseView\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Items\SaveAndCloseView\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Items\SaveAndCloseView\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Items\SaveAndCloseView\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Items\TargetState\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Items\TargetState\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Items\TargetState\Caption" xml:space="preserve">
+    <value>Target State</value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Items\TargetState\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Items\TargetState\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Items\TargetState\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Items\TargetState\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Layout\Main\Caption" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Layout\Main\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Layout\Main\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Layout\Main\SimpleEditors\Caption" xml:space="preserve">
+    <value>SimpleEditors</value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Layout\Main\SimpleEditors\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Layout\Main\SimpleEditors\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Layout\Main\SimpleEditors\XpoTransition\Caption" xml:space="preserve">
+    <value>XpoTransition</value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Layout\Main\SimpleEditors\XpoTransition\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Layout\Main\SimpleEditors\XpoTransition\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Layout\Main\SimpleEditors\XpoTransition\Caption\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Layout\Main\SimpleEditors\XpoTransition\Caption\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Layout\Main\SimpleEditors\XpoTransition\TargetState\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Layout\Main\SimpleEditors\XpoTransition\TargetState\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Layout\Main\SimpleEditors\XpoTransition\Index\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Layout\Main\SimpleEditors\XpoTransition\Index\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Layout\Main\SimpleEditors\XpoTransition\SaveAndCloseView\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_DetailView\Layout\Main\SimpleEditors\XpoTransition\SaveAndCloseView\ToolTipTitle" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_ListView\Caption" xml:space="preserve">
+    <value>Transition</value>
+  </data>
+  <data name="Views\XpoTransition_ListView\Columns\Caption\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_ListView\Columns\Caption\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_ListView\Columns\Caption\Caption" xml:space="preserve">
+    <value>Caption</value>
+  </data>
+  <data name="Views\XpoTransition_ListView\Columns\Caption\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_ListView\Columns\Caption\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_ListView\Columns\Caption\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_ListView\Columns\Caption\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_ListView\Columns\SourceState\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_ListView\Columns\SourceState\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_ListView\Columns\SourceState\Caption" xml:space="preserve">
+    <value>Source State</value>
+  </data>
+  <data name="Views\XpoTransition_ListView\Columns\SourceState\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_ListView\Columns\SourceState\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_ListView\Columns\SourceState\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_ListView\Columns\SourceState\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_ListView\Columns\TargetState\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_ListView\Columns\TargetState\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_ListView\Columns\TargetState\Caption" xml:space="preserve">
+    <value>Target State</value>
+  </data>
+  <data name="Views\XpoTransition_ListView\Columns\TargetState\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_ListView\Columns\TargetState\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_ListView\Columns\TargetState\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_ListView\Columns\TargetState\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_ListView\Columns\Index\EditMask" xml:space="preserve">
+    <value>N0</value>
+  </data>
+  <data name="Views\XpoTransition_ListView\Columns\Index\DisplayFormat" xml:space="preserve">
+    <value>{0:N0}</value>
+  </data>
+  <data name="Views\XpoTransition_ListView\Columns\Index\Caption" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <data name="Views\XpoTransition_ListView\Columns\Index\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_ListView\Columns\Index\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_ListView\Columns\Index\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_ListView\Columns\Index\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_ListView\Columns\SaveAndCloseView\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_ListView\Columns\SaveAndCloseView\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_ListView\Columns\SaveAndCloseView\Caption" xml:space="preserve">
+    <value>Save And Close View</value>
+  </data>
+  <data name="Views\XpoTransition_ListView\Columns\SaveAndCloseView\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_ListView\Columns\SaveAndCloseView\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_ListView\Columns\SaveAndCloseView\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_ListView\Columns\SaveAndCloseView\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_LookupListView\Caption" xml:space="preserve">
+    <value>Transition</value>
+  </data>
+  <data name="Views\XpoTransition_LookupListView\Columns\Caption\EditMask" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_LookupListView\Columns\Caption\DisplayFormat" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_LookupListView\Columns\Caption\Caption" xml:space="preserve">
+    <value>Caption</value>
+  </data>
+  <data name="Views\XpoTransition_LookupListView\Columns\Caption\CaptionForTrue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_LookupListView\Columns\Caption\CaptionForFalse" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_LookupListView\Columns\Caption\PredefinedValues" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Views\XpoTransition_LookupListView\Columns\Caption\ToolTip" xml:space="preserve">
+    <value></value>
+  </data>
+</root>

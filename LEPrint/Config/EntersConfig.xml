@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Enters>
+  <Enter16 name="16进制" value="0123456789ABCDEF"/>
+  <Enter32 name="32进制" value="0123456789ABCDEFGHJKLMNPQRSTWXYZ"/>
+</Enters>
