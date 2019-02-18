@@ -1,5 +1,0 @@
-D:\work\Project\阳普\smart.mes\LEMES_POD\LEMES_POD\bin\Debug\DCDriveList\DC_OpcMonitor.dll
-D:\work\Project\阳普\smart.mes\LEMES_POD\LEMES_POD\bin\Debug\DCDriveList\DC_OpcMonitor.pdb
-D:\work\Project\阳普\smart.mes\LEMES_POD\DC_Drivers\DC_OpcMonitor\obj\Release\DC_OpcMonitor.csprojResolveAssemblyReference.cache
-D:\work\Project\阳普\smart.mes\LEMES_POD\DC_Drivers\DC_OpcMonitor\obj\Release\DC_OpcMonitor.dll
-D:\work\Project\阳普\smart.mes\LEMES_POD\DC_Drivers\DC_OpcMonitor\obj\Release\DC_OpcMonitor.pdb
