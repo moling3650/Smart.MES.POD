@@ -265,3 +265,6 @@ __pycache__/
 *.dll
 *.dll
 *.dll
+*.exe
+*.manifest
+*.application
