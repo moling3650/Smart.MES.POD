@@ -59,3 +59,11 @@ D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP004\bin\ILE.pdb
 D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP004\obj\Debug\DP004.csprojResolveAssemblyReference.cache
 D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP004\obj\Debug\DP004.dll
 D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP004\obj\Debug\DP004.pdb
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\BL_Drivers\DP004\bin\DP004.dll
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\BL_Drivers\DP004\bin\DP004.pdb
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\BL_Drivers\DP004\bin\ILE.dll
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\BL_Drivers\DP004\bin\Newtonsoft.Json.dll
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\BL_Drivers\DP004\bin\ILE.pdb
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\BL_Drivers\DP004\obj\Debug\DP004.csprojResolveAssemblyReference.cache
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\BL_Drivers\DP004\obj\Debug\DP004.dll
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\BL_Drivers\DP004\obj\Debug\DP004.pdb

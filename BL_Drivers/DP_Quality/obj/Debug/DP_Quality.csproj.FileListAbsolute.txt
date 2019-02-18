@@ -13,3 +13,11 @@ D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP_Quality\bin\Debug\DP_Qu
 D:\work\Project\阳普\smart.mes\LEMES_POD\LEMES_POD\bin\Debug\DriveList\DP_Quality.dll.config
 D:\work\Project\阳普\smart.mes\LEMES_POD\LEMES_POD\bin\Debug\DriveList\DP_Quality.dll
 D:\work\Project\阳普\smart.mes\LEMES_POD\LEMES_POD\bin\Debug\DriveList\DP_Quality.pdb
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\LEMES_POD\bin\Debug\DriveList\DP_Quality.dll.config
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\LEMES_POD\bin\Debug\DriveList\DP_Quality.dll
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\LEMES_POD\bin\Debug\DriveList\DP_Quality.pdb
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\BL_Drivers\DP_Quality\obj\Debug\DP_Quality.QualityTest.resources
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\BL_Drivers\DP_Quality\obj\Debug\DP_Quality.csproj.GenerateResource.Cache
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\BL_Drivers\DP_Quality\obj\Debug\DP_Quality.dll
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\BL_Drivers\DP_Quality\obj\Debug\DP_Quality.pdb
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\BL_Drivers\DP_Quality\obj\Debug\DP_Quality.csprojResolveAssemblyReference.cache

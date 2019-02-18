@@ -21,3 +21,8 @@ D:\work\Project\阳普\smart.mes\LEMES_POD\LEMES_POD\bin\Debug\DCDriveList\DC_Op
 D:\work\Project\阳普\smart.mes\LEMES_POD\DC_Drivers\DC_OpcMonitor\obj\Debug\DC_OpcMonitor.csprojResolveAssemblyReference.cache
 D:\work\Project\阳普\smart.mes\LEMES_POD\DC_Drivers\DC_OpcMonitor\obj\Debug\DC_OpcMonitor.dll
 D:\work\Project\阳普\smart.mes\LEMES_POD\DC_Drivers\DC_OpcMonitor\obj\Debug\DC_OpcMonitor.pdb
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\LEMES_POD\bin\Debug\DCDriveList\DC_OpcMonitor.dll
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\LEMES_POD\bin\Debug\DCDriveList\DC_OpcMonitor.pdb
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\DC_Drivers\DC_OpcMonitor\obj\Debug\DC_OpcMonitor.csprojResolveAssemblyReference.cache
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\DC_Drivers\DC_OpcMonitor\obj\Debug\DC_OpcMonitor.dll
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\DC_Drivers\DC_OpcMonitor\obj\Debug\DC_OpcMonitor.pdb

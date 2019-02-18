@@ -64,3 +64,8 @@ D:\work\Project\阳普\smart.mes\LEMES_POD\LEMES_POD\bin\Debug\DriveList\DP_Expe
 D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP_Expend\obj\Debug\DP_Expend.csprojResolveAssemblyReference.cache
 D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP_Expend\obj\Debug\DP_Expend.dll
 D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP_Expend\obj\Debug\DP_Expend.pdb
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\LEMES_POD\bin\Debug\DriveList\DP_Expend.dll
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\LEMES_POD\bin\Debug\DriveList\DP_Expend.pdb
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\BL_Drivers\DP_Expend\obj\Debug\DP_Expend.csprojResolveAssemblyReference.cache
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\BL_Drivers\DP_Expend\obj\Debug\DP_Expend.dll
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\BL_Drivers\DP_Expend\obj\Debug\DP_Expend.pdb

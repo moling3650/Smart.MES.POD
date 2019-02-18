@@ -118,3 +118,12 @@ D:\work\Project\阳普\smart.mes\LEMES_POD\LEDAO\bin\Debug\EntityFramework.SqlSe
 D:\work\Project\阳普\smart.mes\LEMES_POD\LEDAO\obj\Debug\LEDAO.dll
 D:\work\Project\阳普\smart.mes\LEMES_POD\LEDAO\obj\Debug\LEDAO.pdb
 D:\work\Project\阳普\smart.mes\LEMES_POD\LEDAO\obj\Debug\LEDAO.csprojResolveAssemblyReference.cache
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\LEDAO\bin\Debug\LEDAO.dll.config
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\LEDAO\bin\Debug\LEDAO.dll
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\LEDAO\bin\Debug\LEDAO.pdb
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\LEDAO\bin\Debug\EntityFramework.dll
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\LEDAO\bin\Debug\EntityFramework.SqlServer.dll
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\LEDAO\bin\Debug\EntityFramework.xml
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\LEDAO\bin\Debug\EntityFramework.SqlServer.xml
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\LEDAO\obj\Debug\LEDAO.dll
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\LEDAO\obj\Debug\LEDAO.pdb

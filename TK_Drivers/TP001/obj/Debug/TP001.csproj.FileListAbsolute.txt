@@ -11,3 +11,9 @@ D:\work\Project\阳普\smart.mes\LEMES_POD\TK_Drivers\TP001\bin\Debug\TP001.dll.
 D:\work\Project\阳普\smart.mes\LEMES_POD\LEMES_POD\bin\Debug\TPDriveList\TP001.dll.config
 D:\work\Project\阳普\smart.mes\LEMES_POD\LEMES_POD\bin\Debug\TPDriveList\TP001.dll
 D:\work\Project\阳普\smart.mes\LEMES_POD\LEMES_POD\bin\Debug\TPDriveList\TP001.pdb
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\LEMES_POD\bin\Debug\TPDriveList\TP001.dll.config
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\LEMES_POD\bin\Debug\TPDriveList\TP001.dll
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\LEMES_POD\bin\Debug\TPDriveList\TP001.pdb
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\TK_Drivers\TP001\obj\Debug\TP001.csprojResolveAssemblyReference.cache
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\TK_Drivers\TP001\obj\Debug\TP001.dll
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\TK_Drivers\TP001\obj\Debug\TP001.pdb

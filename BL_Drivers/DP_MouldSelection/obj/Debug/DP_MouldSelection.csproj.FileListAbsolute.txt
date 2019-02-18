@@ -18,3 +18,12 @@ D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP_MouldSelection\obj\Debu
 D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP_MouldSelection\obj\Debug\DP_MouldSelection.csproj.GenerateResource.Cache
 D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP_MouldSelection\obj\Debug\DP_MouldSelection.dll
 D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP_MouldSelection\obj\Debug\DP_MouldSelection.pdb
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\LEMES_POD\bin\Debug\DriveList\DP_MouldSelection.dll.config
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\LEMES_POD\bin\Debug\DriveList\DP_MouldSelection.dll
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\LEMES_POD\bin\Debug\DriveList\DP_MouldSelection.pdb
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\BL_Drivers\DP_MouldSelection\obj\Debug\DP_MouldSelection.csprojResolveAssemblyReference.cache
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\BL_Drivers\DP_MouldSelection\obj\Debug\DP_MouldSelection.Properties.Resources.resources
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\BL_Drivers\DP_MouldSelection\obj\Debug\DP_MouldSelection.SelectionForm.resources
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\BL_Drivers\DP_MouldSelection\obj\Debug\DP_MouldSelection.csproj.GenerateResource.Cache
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\BL_Drivers\DP_MouldSelection\obj\Debug\DP_MouldSelection.dll
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\BL_Drivers\DP_MouldSelection\obj\Debug\DP_MouldSelection.pdb

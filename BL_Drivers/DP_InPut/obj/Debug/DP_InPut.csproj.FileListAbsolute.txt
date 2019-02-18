@@ -56,3 +56,8 @@ D:\work\Project\阳普\smart.mes\LEMES_POD\LEMES_POD\bin\Debug\DriveList\DP_InPu
 D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP_InPut\obj\Debug\DP_InPut.csprojResolveAssemblyReference.cache
 D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP_InPut\obj\Debug\DP_InPut.dll
 D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP_InPut\obj\Debug\DP_InPut.pdb
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\LEMES_POD\bin\Debug\DriveList\DP_InPut.dll
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\LEMES_POD\bin\Debug\DriveList\DP_InPut.pdb
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\BL_Drivers\DP_InPut\obj\Debug\DP_InPut.csprojResolveAssemblyReference.cache
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\BL_Drivers\DP_InPut\obj\Debug\DP_InPut.dll
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\BL_Drivers\DP_InPut\obj\Debug\DP_InPut.pdb

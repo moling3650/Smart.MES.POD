@@ -80,3 +80,8 @@ D:\work\Project\阳普\smart.mes\LEMES_POD\LEMES_POD\bin\Debug\DriveList\DP003.p
 D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP003\obj\Debug\DP003.csprojResolveAssemblyReference.cache
 D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP003\obj\Debug\DP003.dll
 D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP003\obj\Debug\DP003.pdb
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\LEMES_POD\bin\Debug\DriveList\DP003.dll
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\LEMES_POD\bin\Debug\DriveList\DP003.pdb
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\BL_Drivers\DP003\obj\Debug\DP003.csprojResolveAssemblyReference.cache
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\BL_Drivers\DP003\obj\Debug\DP003.dll
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\BL_Drivers\DP003\obj\Debug\DP003.pdb
