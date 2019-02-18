@@ -489,4 +489,3 @@ D:\work\Project\阳普\smart.mes\Smart.MES.POD\LEMES_POD\obj\x86\Debug\LEMES_POD
 D:\work\Project\阳普\smart.mes\Smart.MES.POD\LEMES_POD\obj\x86\Debug\LEMES_POD.TrustInfo.xml
 D:\work\Project\阳普\smart.mes\Smart.MES.POD\LEMES_POD\obj\x86\Debug\LEMES_POD.exe.manifest
 D:\work\Project\阳普\smart.mes\Smart.MES.POD\LEMES_POD\obj\x86\Debug\LEMES_POD.application
-D:\work\Project\阳普\smart.mes\Smart.MES.POD\LEMES_POD\bin\Debug\Newtonsoft.Json.dll

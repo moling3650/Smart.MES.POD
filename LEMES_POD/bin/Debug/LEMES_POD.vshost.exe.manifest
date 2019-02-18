@@ -188,7 +188,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>iWSZnGUyHxcQBotkb5/A+SXNYso=</dsig:DigestValue>
+        <dsig:DigestValue>pMfjqE6lOtFCIuZl1Yq0JfhmeOA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -1112,7 +1112,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>nm54HB0UvZ+uaKnhbrHODI3MWU4=</dsig:DigestValue>
+        <dsig:DigestValue>xeXCj7PskcK4L7nGu9kcwBAiZWU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -1124,7 +1124,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>NRJOZBL9MmrTc2LMa3o7U9VfwDY=</dsig:DigestValue>
+        <dsig:DigestValue>aIIqtTmcuPLqCqvG+XYNPnuXLmg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -1136,19 +1136,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>vIhtN1KWXszy9Dnoanah57u/Umc=</dsig:DigestValue>
+        <dsig:DigestValue>uO7+LSIau4s+LouXOMFh2HPofS8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LEMES_POD.exe" size="821248">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LEMES_POD.exe" size="811520">
       <assemblyIdentity name="LEMES_POD" version="1.0.0.3" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>H0cweukXCB9zHrQ8auU9MaqGWKU=</dsig:DigestValue>
+        <dsig:DigestValue>jZBhHTtkw9p8uvzqsUe3LJxeBr4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
