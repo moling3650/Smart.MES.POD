@@ -16,7 +16,7 @@ namespace DP003
         //主批次号
         public SPO()
         {
-
+            
         }
 
         public IResult DoWork(IJob job, string val)
