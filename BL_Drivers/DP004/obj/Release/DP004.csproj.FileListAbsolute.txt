@@ -1,8 +1,0 @@
-D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP004\bin\Release\DP004.dll
-D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP004\bin\Release\DP004.pdb
-D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP004\bin\Release\ILE.dll
-D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP004\bin\Release\Newtonsoft.Json.dll
-D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP004\bin\Release\ILE.pdb
-D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP004\obj\Release\DP004.csprojResolveAssemblyReference.cache
-D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP004\obj\Release\DP004.dll
-D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP004\obj\Release\DP004.pdb

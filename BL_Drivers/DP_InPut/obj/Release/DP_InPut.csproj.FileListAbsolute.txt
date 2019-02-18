@@ -1,6 +1,0 @@
-D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP_InPut\bin\Release\DP_InPut.dll
-D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP_InPut\bin\Release\DP_InPut.pdb
-D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP_InPut\bin\Release\ILE.dll
-D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP_InPut\bin\Release\ILE.pdb
-D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP_InPut\obj\Release\DP_InPut.dll
-D:\work\Project\阳普\smart.mes\LEMES_POD\BL_Drivers\DP_InPut\obj\Release\DP_InPut.pdb
