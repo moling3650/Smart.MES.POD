@@ -269,3 +269,6 @@ __pycache__/
 *.manifest
 *.application
 *.txt
+*.application
+*.manifest
+*.txt

@@ -127,3 +127,4 @@ D:\work\Project\阳普\smart.mes\Smart.MES.POD\LEDAO\bin\Debug\EntityFramework.x
 D:\work\Project\阳普\smart.mes\Smart.MES.POD\LEDAO\bin\Debug\EntityFramework.SqlServer.xml
 D:\work\Project\阳普\smart.mes\Smart.MES.POD\LEDAO\obj\Debug\LEDAO.dll
 D:\work\Project\阳普\smart.mes\Smart.MES.POD\LEDAO\obj\Debug\LEDAO.pdb
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\LEDAO\obj\Debug\LEDAO.csprojResolveAssemblyReference.cache
