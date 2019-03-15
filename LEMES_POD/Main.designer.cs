@@ -360,7 +360,7 @@
             // 
             // kryptonManager1
             // 
-            this.kryptonManager1.GlobalPaletteMode = ComponentFactory.Krypton.Toolkit.PaletteModeManager.Office2007Silver;
+            this.kryptonManager1.GlobalPaletteMode = ComponentFactory.Krypton.Toolkit.PaletteModeManager.SparkleOrange;
             // 
             // kryptonPanel1
             // 

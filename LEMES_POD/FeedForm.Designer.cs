@@ -520,7 +520,7 @@
             // 
             this.kbtnclose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.kbtnclose.AutoSize = true;
-            this.kbtnclose.Location = new System.Drawing.Point(843, 102);
+            this.kbtnclose.Location = new System.Drawing.Point(840, 102);
             this.kbtnclose.Name = "kbtnclose";
             this.kbtnclose.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2007Silver;
             this.kbtnclose.Size = new System.Drawing.Size(62, 65);
@@ -540,7 +540,7 @@
             // 
             this.kbtnxl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.kbtnxl.AutoSize = true;
-            this.kbtnxl.Location = new System.Drawing.Point(843, 18);
+            this.kbtnxl.Location = new System.Drawing.Point(840, 18);
             this.kbtnxl.Name = "kbtnxl";
             this.kbtnxl.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2007Silver;
             this.kbtnxl.Size = new System.Drawing.Size(62, 72);
@@ -560,7 +560,7 @@
             // 
             this.kbtnallxl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.kbtnallxl.AutoSize = true;
-            this.kbtnallxl.Location = new System.Drawing.Point(843, 179);
+            this.kbtnallxl.Location = new System.Drawing.Point(840, 179);
             this.kbtnallxl.Name = "kbtnallxl";
             this.kbtnallxl.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2007Silver;
             this.kbtnallxl.Size = new System.Drawing.Size(62, 72);

@@ -63,3 +63,4 @@ D:\work\Project\阳普\smart.mes\Smart.MES.POD\DataBase1.1\bin\Debug\DataBase.dl
 D:\work\Project\阳普\smart.mes\Smart.MES.POD\DataBase1.1\bin\Debug\DataBase.pdb
 D:\work\Project\阳普\smart.mes\Smart.MES.POD\DataBase1.1\obj\Debug\DataBase.dll
 D:\work\Project\阳普\smart.mes\Smart.MES.POD\DataBase1.1\obj\Debug\DataBase.pdb
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\DataBase1.1\obj\Debug\DataBase.csprojResolveAssemblyReference.cache

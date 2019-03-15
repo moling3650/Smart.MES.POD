@@ -169,7 +169,7 @@
             // btn_discarde
             // 
             this.btn_discarde.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_discarde.Location = new System.Drawing.Point(1153, 580);
+            this.btn_discarde.Location = new System.Drawing.Point(1153, 582);
             this.btn_discarde.Name = "btn_discarde";
             this.btn_discarde.Size = new System.Drawing.Size(75, 38);
             this.btn_discarde.TabIndex = 130;
@@ -325,7 +325,7 @@
             // btn_addfaillog
             // 
             this.btn_addfaillog.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_addfaillog.Location = new System.Drawing.Point(1244, 579);
+            this.btn_addfaillog.Location = new System.Drawing.Point(1244, 581);
             this.btn_addfaillog.Name = "btn_addfaillog";
             this.btn_addfaillog.Size = new System.Drawing.Size(75, 38);
             this.btn_addfaillog.TabIndex = 11;

@@ -61,3 +61,4 @@ D:\work\Project\阳普\smart.mes\Smart.MES.POD\ILE\bin\Debug\ILE.dll
 D:\work\Project\阳普\smart.mes\Smart.MES.POD\ILE\bin\Debug\ILE.pdb
 D:\work\Project\阳普\smart.mes\Smart.MES.POD\ILE\obj\Debug\ILE.dll
 D:\work\Project\阳普\smart.mes\Smart.MES.POD\ILE\obj\Debug\ILE.pdb
+D:\work\Project\阳普\smart.mes\Smart.MES.POD\ILE\obj\Debug\ILE.csprojResolveAssemblyReference.cache
